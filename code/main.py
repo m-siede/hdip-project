@@ -10,7 +10,7 @@ def main():
     combined_csv = Path(f"data/outputs/combined.csv")
 
     if combined_csv.exists():
-        combined_statistics = pd.readcsv(combined_csv)
+        combined_statistics = pd.read_csv(combined_csv)
     else:
         schizophrenia_statistics, schizophrenia_data = read_group_files('schizophrenia', 22)
         control_statistics, control_data = read_group_files('control', 32)
@@ -65,7 +65,7 @@ def read_group_files(group_name: str, num_files: int) -> pd.DataFrame:
         all_statistics = pd.DataFrame(all_stats, index=range(1, num_files + 1))
         statistics_csv.parent.mkdir(exist_ok=True, parents=True)
         all_statistics.to_csv(statistics_csv)
-\
+
         all_activity = pd.concat(all_dataframes, ignore_index=True)
         
         all_data = pd.DataFrame(all_activity)
@@ -197,9 +197,9 @@ def plots(
         plt.show()
     plt.close()
 
-def quarter_daily_sections():
-    
-
+# get minutes per day
+# check for full days
+# check for how many days per full days
 
 
 if __name__ == '__main__':
