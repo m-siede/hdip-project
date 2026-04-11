@@ -27,15 +27,7 @@ def create_combined_dataset(combined_csv):
     combined_groups_statistics.index.name = 'person_id'
         
     combined_groups_statistics = save_to_csv(combined_groups_statistics, combined_csv)
-
-    # Box plots of mean, max and SD of activity for groups
-    for col in ['mean', 'max', 'sd']:
-        plots(
-            combined_groups_statistics, x='group', y=col, kind='box', show=False, legend=False,
-            output_path=Path(f'plots/summary/box_ALL_{col}.png'), 
-            figsize=(10, 8),
-            title=f"Comparison of {col} activity between groups"
-        )
+    
     return combined_groups_statistics
 
 def read_group_files(group_name: str, num_files: int) -> pd.DataFrame:
@@ -54,6 +46,9 @@ def read_group_files(group_name: str, num_files: int) -> pd.DataFrame:
             print(person_id)
             plot= person_id<5
             patient_statistics, patient_data = read_patient_file(person_id, group_name, plot=plot)
+            
+            features = extract_features(patient_data)
+            patient_statistics.update(features)
 
             for key, value in patient_statistics["activity_by_hour"].items():
                 patient_statistics[f"mean_activity_{key}"] = value
@@ -70,28 +65,8 @@ def read_group_files(group_name: str, num_files: int) -> pd.DataFrame:
 
         all_patients_activity_data = pd.concat(all_patients_data, ignore_index=True)
         
-        combined_patients_data = pd.DataFrame(all_patients_activity_data)
-        all_data_csv.parent.mkdir(exist_ok=True, parents=True)
-        all_patients_activity_data.to_csv(all_data_csv)
+        combined_patients_data = save_to_csv(all_patients_activity_data, all_data_csv)
 
-        # Create Subdirectory for summary plots
-        # plots_subdir = Path('plots/summary/')
-
-        # # Bar plot of mean activity per hour per person in group
-        # combined_patients_statistics['person_no'] = combined_patients_statistics.index
-        # plots(
-        #     combined_patients_statistics, x='person_no', y='mean', kind='bar', show=False, legend=False,
-        #     title= f"Bar chart of mean activity per person in the {group_name} group",
-        #     output_path=plots_subdir / f"bar_{group_name}_mean_activity.png"
-        # )
-
-        # # Box plot of activity per person in group
-        # plots(
-        #     all_patients_activity_data, x='person_no', y="activity", kind='box', legend=False,
-        #     show=False,title= f"Boxplot of activity per person in the {group_name} group", 
-        #     output_path=plots_subdir / f"box_{group_name}_activity.png"
-        # )
-    
     return combined_patients_statistics, combined_patients_data
 
 
@@ -110,12 +85,12 @@ def read_patient_file(patient_num: int, group_name: str, plot=True):
     full_days = full_days[full_days >= 1400].index
     patient_data = patient_data[patient_data["date"].isin(full_days)]
     
-    patient_statistics = extract_features(patient_data)
+    patient_statistics = extract_statistics(patient_data)
 
 
     return patient_statistics, patient_data
 
-def extract_features(data):
+def extract_statistics(data):
     statistics = {
         "min" : data["activity"].min(),
         "max" : data["activity"].max(),
@@ -126,120 +101,71 @@ def extract_features(data):
     }
     return statistics
 
-def patient_plots(data):
-    plot_dir = Path(f"plots/{group_name}/{patient_num}")
-    show_plots = False
-    y = "activity"
-    if plot:
-        plots(data, x="timestamp", y=y, show=show_plots, output_path=plot_dir / "line_timestamp_vs_activity.png")
-        plots(data, x="timestamp", y=y, kind="scatter", show=show_plots, output_path=plot_dir / "scatter_timestamp_vs_activity.png")
-        plots(data, x="hour", y=y, kind="box", show=show_plots, output_path=plot_dir / "box_hour_vs_activity.png")
-        plots(data, x="hour", y=y, kind="box", show=show_plots, output_path=plot_dir / "box_hour_vs_activity_short.png")
-        plots(data, x="hour", y=y, kind="box", show=show_plots, yscale="log", output_path=plot_dir / "box_hour_vs_log_activity.png")
+def extract_features(data):
+    df = data.copy()
 
-def group_plots():
-    # Create Subdirectory for summary plots
-        plots_subdir = Path('plots/summary/')
+    day = df[(df["hour"] >= 8) & (df["hour"] < 20)]
+    night = df[(df["hour"] < 8) | (df["hour"] >= 20)]
 
-        # Bar plot of mean activity per hour per person in group
-        combined_patients_statistics['person_no'] = combined_patients_statistics.index
-        plots(
-            combined_patients_statistics, x='person_no', y='mean', kind='bar', show=False, legend=False,
-            title= f"Bar chart of mean activity per person in the {group_name} group",
-            output_path=plots_subdir / f"bar_{group_name}_mean_activity.png"
-        )
+    inactive_ratio = (df["activity"] == 0).mean()
 
-        # Box plot of activity per person in group
-        plots(
-            all_patients_activity_data, x='person_no', y="activity", kind='box', legend=False,
-            show=False,title= f"Boxplot of activity per person in the {group_name} group", 
-            output_path=plots_subdir / f"box_{group_name}_activity.png"
-        )
+    # Longest inactivity streak
+    is_zero = (df["activity"] == 0).astype(int)
+    streaks = is_zero.groupby((is_zero != is_zero.shift()).cumsum()).cumsum()
+    longest_streak = streaks.max()
 
-def combined_plots():
-    for col in ['mean', 'max', 'sd']:
-        plots(
-            combined_groups_statistics, x='group', y=col, kind='box', show=False, legend=False,
-            output_path=Path(f'plots/summary/box_ALL_{col}.png'), 
-            figsize=(10, 8),
-            title=f"Comparison of {col} activity between groups"
-        )
+    # Variability
+    daily_mean = df.groupby("date")["activity"].mean()
 
-def plots(
-    df, x, y, kind="line", hue=None, figsize=(12,6), show=False, 
-    output_path=None, yscale="linear", ylimits=None, legend=False, title=None
-):
-    """Create plots."""
-    if not show and output_path and Path(output_path).exists():
-        return
+    # Circadian metrics
+    IS = compute_IS(df)
+    IV = compute_IV(df)
+    RA = compute_RA(df)
 
-    custom_params = {"axes.spines.right": False, "axes.spines.top": False}
-    sns.set_theme(style="ticks", context="talk",  palette="colorblind", rc=custom_params)
+    features = {
+        "inactive_ratio": inactive_ratio,
+        "longest_inactivity": longest_streak,
+        "day_activity": day["activity"].mean(),
+        "night_activity": night["activity"].mean(),
+        "day_night_ratio": day["activity"].mean() / (night["activity"].mean() + 1e-5),
+        "interday_variability": daily_mean.var(),
+        "intraday_variability": df["activity"].diff().abs().mean(),
 
-    # df = df.copy()
-    fig, ax = plt.subplots(figsize=figsize)
+        "IS": IS,
+        "IV": IV,
+        "RA": RA,
+    }
 
-    if kind == "box":
-        sns.boxplot(
-            data=df, x=x, y=y, ax=ax, hue=x, width=0.6, showfliers=False,
-            showmeans=True,  meanprops={
-                                        "marker": "o",
-                                        "markerfacecolor": "black",
-                                        "markeredgecolor": "white",
-                                        "markersize": 6
-                                        },
-            legend=legend
-        )
-        # ax.legend(handles=[], labels=[])
+    return features
 
-    elif kind == "line":
-        sns.lineplot(data=df, x=x, y=y, hue=x, marker="o", linewidth=2.5,ax=ax, legend=legend)
+def compute_IS(df):
+    hourly_mean = df.groupby("hour")["activity"].mean()
+    overall_mean = df["activity"].mean()
+    return ((hourly_mean - overall_mean) ** 2).sum() / ((df["activity"] - overall_mean) ** 2).sum()
 
-    elif kind == "scatter":
-        sns.scatterplot(data=df, x=x, y=y, hue=x, alpha=0.7, s=60, ax=ax,  legend=legend)
+def compute_IV(df):
+    diff = df["activity"].diff().dropna()
+    return (diff ** 2).mean() / df["activity"].var()
 
-    elif kind == "bar":
-        sns.barplot(data=df, x=x, y=y, hue=x, ax=ax, errorbar="sd", legend=legend)
-
-    elif kind == "area":
-        # seaborn doesn't have area — simulate via line + fill
-        if hue:
-            for key, subdf in df.groupby(hue):
-                sns.lineplot(data=subdf, x=x, y=y, ax=ax, label=key)
-                ax.fill_between(subdf[x], subdf[y], alpha=0.3)
-        else:
-            sns.lineplot(data=df, x=x, y=y, ax=ax)
-            ax.fill_between(df[x], df[y], alpha=0.3)
-
-    # group x axis by date
-    ax.set_xticks(ax.get_xticks())
-
-    if ylimits:
-        ax.set_ylim(ylimits)
-
-    # if title:
-    #     title = f"{kind} plot of {x} and {y}"
-    plt.title(title)
-    # transform y to different kind e.g. linear or log scale
-    plt.yscale(yscale)
-
-    # eliminate whitespace
-    # plt.tight_layout()
-
-    # save graph to file
-    if output_path:
-        output_path.parent.mkdir(exist_ok=True, parents=True)
-        plt.savefig(output_path)
-    if show:
-        plt.show()
-    plt.close()
+def compute_RA(df):
+    hourly = df.groupby("hour")["activity"].mean()
+    M10 = hourly.sort_values(ascending=False).head(10).mean()
+    L5 = hourly.sort_values().head(5).mean()
+    return (M10 - L5) / (M10 + L5 + 1e-5)
 
 
-def save_to_csv(data, path, index):
-    df = pd.DataFrame(data).copy()
+
+def save_to_csv(data, path, index=None):
+    if isinstance(data, pd.DataFrame):
+        df = data.copy()
+        if index is not None:
+            df.index = index
+    else:
+        df = pd.DataFrame(data, index=index)
+
     path.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(path)
-    
+
     return df
 
 
