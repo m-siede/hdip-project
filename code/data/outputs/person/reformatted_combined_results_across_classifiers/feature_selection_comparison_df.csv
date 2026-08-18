@@ -1,0 +1,4 @@
+sample type,classifier,permutation vs rfecv,permutation vs inactivity,rfecv vs inactivity,permutation rfecv overlap count,permutation inactivity overlap count,rfecv inactivity overlap count,all overlap count,permutation rfecv overlap features,permutation inactivity overlap features,rfecv inactivity overlap features,all overlap features,n importance features,n rfecv features,n zero dominated features
+person,Random Forest,0.3,0.125,0.067,3,1,1,1,"['daily_mean_activity_variance', 'day_night_ratio', 'inactive_evening']",['inactive_evening'],['inactive_evening'],['inactive_evening'],3,10,6
+person,Logistic Regression,0.25,0.062,0.0,3,1,0,0,"['12_hour_night_activity', 'activity_night', 'sd']",['inactive_afternoon'],[],[],11,4,6
+person,Decision Tree,0.4,0.1,0.143,2,1,1,1,"['daily_mean_activity_variance', 'inactive_evening']",['inactive_evening'],['inactive_evening'],['inactive_evening'],5,2,6

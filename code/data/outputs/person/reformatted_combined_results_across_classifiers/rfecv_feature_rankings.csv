@@ -1,0 +1,61 @@
+sample type,classifier,feature,selected,ranking
+person,Random Forest,mean,True,1
+person,Random Forest,sd,True,1
+person,Random Forest,inactive ratio,True,1
+person,Random Forest,12 hour night activity,True,1
+person,Random Forest,day night ratio,True,1
+person,Random Forest,activity afternoon,True,1
+person,Random Forest,daily mean activity variance,True,1
+person,Random Forest,IS,True,1
+person,Random Forest,activity evening,True,1
+person,Random Forest,inactive evening,True,1
+person,Random Forest,mean absolute change activity,False,2
+person,Random Forest,RA,False,3
+person,Random Forest,inactive night,False,4
+person,Random Forest,12 hour day activity,False,5
+person,Random Forest,IV,False,6
+person,Random Forest,longest inactivity,False,7
+person,Random Forest,inactive afternoon,False,8
+person,Random Forest,activity night,False,9
+person,Random Forest,inactive morning,False,10
+person,Random Forest,activity morning,False,11
+person,Logistic Regression,sd,True,1
+person,Logistic Regression,12 hour night activity,True,1
+person,Logistic Regression,mean absolute change activity,True,1
+person,Logistic Regression,activity night,True,1
+person,Logistic Regression,12 hour day activity,False,2
+person,Logistic Regression,activity afternoon,False,3
+person,Logistic Regression,activity morning,False,4
+person,Logistic Regression,activity evening,False,5
+person,Logistic Regression,inactive night,False,6
+person,Logistic Regression,inactive morning,False,7
+person,Logistic Regression,inactive ratio,False,8
+person,Logistic Regression,inactive evening,False,9
+person,Logistic Regression,day night ratio,False,10
+person,Logistic Regression,inactive afternoon,False,11
+person,Logistic Regression,daily mean activity variance,False,12
+person,Logistic Regression,IV,False,13
+person,Logistic Regression,RA,False,14
+person,Logistic Regression,longest inactivity,False,15
+person,Logistic Regression,IS,False,16
+person,Logistic Regression,mean,False,17
+person,Decision Tree,daily mean activity variance,True,1
+person,Decision Tree,inactive evening,True,1
+person,Decision Tree,inactive afternoon,False,2
+person,Decision Tree,inactive morning,False,3
+person,Decision Tree,inactive night,False,4
+person,Decision Tree,activity evening,False,5
+person,Decision Tree,activity afternoon,False,6
+person,Decision Tree,activity morning,False,7
+person,Decision Tree,activity night,False,8
+person,Decision Tree,IS,False,9
+person,Decision Tree,day night ratio,False,10
+person,Decision Tree,RA,False,11
+person,Decision Tree,IV,False,12
+person,Decision Tree,mean absolute change activity,False,13
+person,Decision Tree,12 hour night activity,False,14
+person,Decision Tree,12 hour day activity,False,15
+person,Decision Tree,longest inactivity,False,16
+person,Decision Tree,inactive ratio,False,17
+person,Decision Tree,sd,False,18
+person,Decision Tree,mean,False,19

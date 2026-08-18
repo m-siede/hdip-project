@@ -1,0 +1,7 @@
+sample type,classifier,group,proportion
+person,Random Forest,control,0.593
+person,Random Forest,schizophrenia,0.407
+person,Logistic Regression,control,0.593
+person,Logistic Regression,schizophrenia,0.407
+person,Decision Tree,control,0.593
+person,Decision Tree,schizophrenia,0.407

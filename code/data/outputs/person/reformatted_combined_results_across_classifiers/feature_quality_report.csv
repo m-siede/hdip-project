@@ -1,0 +1,148 @@
+sample type,classifier,feature,nan count,nan pct,inf count,inactive count,zero proportion,variance,std dev,is constant,issues
+person,Random Forest,min,0,0.0,0,54,1.0,0.0,0.0,True,"Constant, Mostly zero"
+person,Random Forest,max,0,0.0,0,0,0.0,3030561.384,1740.851,False,OK
+person,Random Forest,mean,0,0.0,0,0,0.0,7128.792,84.432,False,OK
+person,Random Forest,median,0,0.0,0,13,0.241,2168.411,46.566,False,OK
+person,Random Forest,sd,0,0.0,0,0,0.0,12113.325,110.061,False,OK
+person,Random Forest,mean activity 0,0,0.0,0,0,0.0,5689.997,75.432,False,OK
+person,Random Forest,mean activity 1,0,0.0,0,0,0.0,2997.763,54.752,False,OK
+person,Random Forest,mean activity 2,0,0.0,0,0,0.0,1141.234,33.782,False,OK
+person,Random Forest,mean activity 3,0,0.0,0,0,0.0,579.286,24.068,False,OK
+person,Random Forest,mean activity 4,0,0.0,0,0,0.0,509.394,22.57,False,OK
+person,Random Forest,mean activity 5,0,0.0,0,0,0.0,1512.315,38.888,False,OK
+person,Random Forest,mean activity 6,0,0.0,0,0,0.0,15522.286,124.588,False,OK
+person,Random Forest,mean activity 7,0,0.0,0,0,0.0,12766.407,112.989,False,OK
+person,Random Forest,mean activity 8,0,0.0,0,0,0.0,17523.111,132.375,False,OK
+person,Random Forest,mean activity 9,0,0.0,0,0,0.0,15748.247,125.492,False,OK
+person,Random Forest,mean activity 10,0,0.0,0,0,0.0,17161.363,131.001,False,OK
+person,Random Forest,mean activity 11,0,0.0,0,0,0.0,16393.108,128.036,False,OK
+person,Random Forest,mean activity 12,0,0.0,0,0,0.0,19915.408,141.122,False,OK
+person,Random Forest,mean activity 13,0,0.0,0,0,0.0,21426.036,146.376,False,OK
+person,Random Forest,mean activity 14,0,0.0,0,0,0.0,22321.853,149.405,False,OK
+person,Random Forest,mean activity 15,0,0.0,0,0,0.0,21373.545,146.197,False,OK
+person,Random Forest,mean activity 16,0,0.0,0,0,0.0,20073.946,141.683,False,OK
+person,Random Forest,mean activity 17,0,0.0,0,0,0.0,18582.033,136.316,False,OK
+person,Random Forest,mean activity 18,0,0.0,0,0,0.0,17847.802,133.596,False,OK
+person,Random Forest,mean activity 19,0,0.0,0,0,0.0,15760.794,125.542,False,OK
+person,Random Forest,mean activity 20,0,0.0,0,0,0.0,15111.589,122.929,False,OK
+person,Random Forest,mean activity 21,0,0.0,0,0,0.0,12998.913,114.013,False,OK
+person,Random Forest,mean activity 22,0,0.0,0,0,0.0,13860.108,117.729,False,OK
+person,Random Forest,mean activity 23,0,0.0,0,0,0.0,9898.042,99.489,False,OK
+person,Random Forest,inactive ratio,0,0.0,0,0,0.0,0.019,0.139,False,OK
+person,Random Forest,longest inactivity,0,0.0,0,0,0.0,161542.938,401.924,False,OK
+person,Random Forest,is constant activity,0,0.0,0,54,1.0,0.0,0.0,True,"Constant, Mostly zero"
+person,Random Forest,12 hour day activity,0,0.0,0,0,0.0,14863.874,121.917,False,OK
+person,Random Forest,12 hour night activity,0,0.0,0,0,0.0,3184.497,56.431,False,OK
+person,Random Forest,day night ratio,0,0.0,0,0,0.0,1.928,1.389,False,OK
+person,Random Forest,mean absolute change activity,0,0.0,0,0,0.0,1519.383,38.979,False,OK
+person,Random Forest,IV,0,0.0,0,0,0.0,0.033,0.182,False,OK
+person,Random Forest,RA,0,0.0,0,0,0.0,0.017,0.129,False,OK
+person,Random Forest,daily mean activity variance,0,0.0,0,0,0.0,98069484.157,9903.004,False,OK
+person,Random Forest,IS,0,0.0,0,0,0.0,0.027,0.164,False,OK
+person,Random Forest,activity night,0,0.0,0,0,0.0,1153.607,33.965,False,OK
+person,Random Forest,activity morning,0,0.0,0,0,0.0,10827.953,104.057,False,OK
+person,Random Forest,activity afternoon,0,0.0,0,0,0.0,17990.304,134.128,False,OK
+person,Random Forest,activity evening,0,0.0,0,0,0.0,11274.88,106.183,False,OK
+person,Random Forest,inactive night,0,0.0,0,0,0.0,0.037,0.193,False,OK
+person,Random Forest,inactive morning,0,0.0,0,1,0.019,0.032,0.178,False,OK
+person,Random Forest,inactive afternoon,0,0.0,0,1,0.019,0.02,0.14,False,OK
+person,Random Forest,inactive evening,0,0.0,0,1,0.019,0.028,0.169,False,OK
+person,Random Forest,person id,0,0.0,0,0,0.0,74.329,8.621,False,OK
+person,Logistic Regression,min,0,0.0,0,54,1.0,0.0,0.0,True,"Constant, Mostly zero"
+person,Logistic Regression,max,0,0.0,0,0,0.0,3030561.384,1740.851,False,OK
+person,Logistic Regression,mean,0,0.0,0,0,0.0,7128.792,84.432,False,OK
+person,Logistic Regression,median,0,0.0,0,13,0.241,2168.411,46.566,False,OK
+person,Logistic Regression,sd,0,0.0,0,0,0.0,12113.325,110.061,False,OK
+person,Logistic Regression,mean activity 0,0,0.0,0,0,0.0,5689.997,75.432,False,OK
+person,Logistic Regression,mean activity 1,0,0.0,0,0,0.0,2997.763,54.752,False,OK
+person,Logistic Regression,mean activity 2,0,0.0,0,0,0.0,1141.234,33.782,False,OK
+person,Logistic Regression,mean activity 3,0,0.0,0,0,0.0,579.286,24.068,False,OK
+person,Logistic Regression,mean activity 4,0,0.0,0,0,0.0,509.394,22.57,False,OK
+person,Logistic Regression,mean activity 5,0,0.0,0,0,0.0,1512.315,38.888,False,OK
+person,Logistic Regression,mean activity 6,0,0.0,0,0,0.0,15522.286,124.588,False,OK
+person,Logistic Regression,mean activity 7,0,0.0,0,0,0.0,12766.407,112.989,False,OK
+person,Logistic Regression,mean activity 8,0,0.0,0,0,0.0,17523.111,132.375,False,OK
+person,Logistic Regression,mean activity 9,0,0.0,0,0,0.0,15748.247,125.492,False,OK
+person,Logistic Regression,mean activity 10,0,0.0,0,0,0.0,17161.363,131.001,False,OK
+person,Logistic Regression,mean activity 11,0,0.0,0,0,0.0,16393.108,128.036,False,OK
+person,Logistic Regression,mean activity 12,0,0.0,0,0,0.0,19915.408,141.122,False,OK
+person,Logistic Regression,mean activity 13,0,0.0,0,0,0.0,21426.036,146.376,False,OK
+person,Logistic Regression,mean activity 14,0,0.0,0,0,0.0,22321.853,149.405,False,OK
+person,Logistic Regression,mean activity 15,0,0.0,0,0,0.0,21373.545,146.197,False,OK
+person,Logistic Regression,mean activity 16,0,0.0,0,0,0.0,20073.946,141.683,False,OK
+person,Logistic Regression,mean activity 17,0,0.0,0,0,0.0,18582.033,136.316,False,OK
+person,Logistic Regression,mean activity 18,0,0.0,0,0,0.0,17847.802,133.596,False,OK
+person,Logistic Regression,mean activity 19,0,0.0,0,0,0.0,15760.794,125.542,False,OK
+person,Logistic Regression,mean activity 20,0,0.0,0,0,0.0,15111.589,122.929,False,OK
+person,Logistic Regression,mean activity 21,0,0.0,0,0,0.0,12998.913,114.013,False,OK
+person,Logistic Regression,mean activity 22,0,0.0,0,0,0.0,13860.108,117.729,False,OK
+person,Logistic Regression,mean activity 23,0,0.0,0,0,0.0,9898.042,99.489,False,OK
+person,Logistic Regression,inactive ratio,0,0.0,0,0,0.0,0.019,0.139,False,OK
+person,Logistic Regression,longest inactivity,0,0.0,0,0,0.0,161542.938,401.924,False,OK
+person,Logistic Regression,is constant activity,0,0.0,0,54,1.0,0.0,0.0,True,"Constant, Mostly zero"
+person,Logistic Regression,12 hour day activity,0,0.0,0,0,0.0,14863.874,121.917,False,OK
+person,Logistic Regression,12 hour night activity,0,0.0,0,0,0.0,3184.497,56.431,False,OK
+person,Logistic Regression,day night ratio,0,0.0,0,0,0.0,1.928,1.389,False,OK
+person,Logistic Regression,mean absolute change activity,0,0.0,0,0,0.0,1519.383,38.979,False,OK
+person,Logistic Regression,IV,0,0.0,0,0,0.0,0.033,0.182,False,OK
+person,Logistic Regression,RA,0,0.0,0,0,0.0,0.017,0.129,False,OK
+person,Logistic Regression,daily mean activity variance,0,0.0,0,0,0.0,98069484.157,9903.004,False,OK
+person,Logistic Regression,IS,0,0.0,0,0,0.0,0.027,0.164,False,OK
+person,Logistic Regression,activity night,0,0.0,0,0,0.0,1153.607,33.965,False,OK
+person,Logistic Regression,activity morning,0,0.0,0,0,0.0,10827.953,104.057,False,OK
+person,Logistic Regression,activity afternoon,0,0.0,0,0,0.0,17990.304,134.128,False,OK
+person,Logistic Regression,activity evening,0,0.0,0,0,0.0,11274.88,106.183,False,OK
+person,Logistic Regression,inactive night,0,0.0,0,0,0.0,0.037,0.193,False,OK
+person,Logistic Regression,inactive morning,0,0.0,0,1,0.019,0.032,0.178,False,OK
+person,Logistic Regression,inactive afternoon,0,0.0,0,1,0.019,0.02,0.14,False,OK
+person,Logistic Regression,inactive evening,0,0.0,0,1,0.019,0.028,0.169,False,OK
+person,Logistic Regression,person id,0,0.0,0,0,0.0,74.329,8.621,False,OK
+person,Decision Tree,min,0,0.0,0,54,1.0,0.0,0.0,True,"Constant, Mostly zero"
+person,Decision Tree,max,0,0.0,0,0,0.0,3030561.384,1740.851,False,OK
+person,Decision Tree,mean,0,0.0,0,0,0.0,7128.792,84.432,False,OK
+person,Decision Tree,median,0,0.0,0,13,0.241,2168.411,46.566,False,OK
+person,Decision Tree,sd,0,0.0,0,0,0.0,12113.325,110.061,False,OK
+person,Decision Tree,mean activity 0,0,0.0,0,0,0.0,5689.997,75.432,False,OK
+person,Decision Tree,mean activity 1,0,0.0,0,0,0.0,2997.763,54.752,False,OK
+person,Decision Tree,mean activity 2,0,0.0,0,0,0.0,1141.234,33.782,False,OK
+person,Decision Tree,mean activity 3,0,0.0,0,0,0.0,579.286,24.068,False,OK
+person,Decision Tree,mean activity 4,0,0.0,0,0,0.0,509.394,22.57,False,OK
+person,Decision Tree,mean activity 5,0,0.0,0,0,0.0,1512.315,38.888,False,OK
+person,Decision Tree,mean activity 6,0,0.0,0,0,0.0,15522.286,124.588,False,OK
+person,Decision Tree,mean activity 7,0,0.0,0,0,0.0,12766.407,112.989,False,OK
+person,Decision Tree,mean activity 8,0,0.0,0,0,0.0,17523.111,132.375,False,OK
+person,Decision Tree,mean activity 9,0,0.0,0,0,0.0,15748.247,125.492,False,OK
+person,Decision Tree,mean activity 10,0,0.0,0,0,0.0,17161.363,131.001,False,OK
+person,Decision Tree,mean activity 11,0,0.0,0,0,0.0,16393.108,128.036,False,OK
+person,Decision Tree,mean activity 12,0,0.0,0,0,0.0,19915.408,141.122,False,OK
+person,Decision Tree,mean activity 13,0,0.0,0,0,0.0,21426.036,146.376,False,OK
+person,Decision Tree,mean activity 14,0,0.0,0,0,0.0,22321.853,149.405,False,OK
+person,Decision Tree,mean activity 15,0,0.0,0,0,0.0,21373.545,146.197,False,OK
+person,Decision Tree,mean activity 16,0,0.0,0,0,0.0,20073.946,141.683,False,OK
+person,Decision Tree,mean activity 17,0,0.0,0,0,0.0,18582.033,136.316,False,OK
+person,Decision Tree,mean activity 18,0,0.0,0,0,0.0,17847.802,133.596,False,OK
+person,Decision Tree,mean activity 19,0,0.0,0,0,0.0,15760.794,125.542,False,OK
+person,Decision Tree,mean activity 20,0,0.0,0,0,0.0,15111.589,122.929,False,OK
+person,Decision Tree,mean activity 21,0,0.0,0,0,0.0,12998.913,114.013,False,OK
+person,Decision Tree,mean activity 22,0,0.0,0,0,0.0,13860.108,117.729,False,OK
+person,Decision Tree,mean activity 23,0,0.0,0,0,0.0,9898.042,99.489,False,OK
+person,Decision Tree,inactive ratio,0,0.0,0,0,0.0,0.019,0.139,False,OK
+person,Decision Tree,longest inactivity,0,0.0,0,0,0.0,161542.938,401.924,False,OK
+person,Decision Tree,is constant activity,0,0.0,0,54,1.0,0.0,0.0,True,"Constant, Mostly zero"
+person,Decision Tree,12 hour day activity,0,0.0,0,0,0.0,14863.874,121.917,False,OK
+person,Decision Tree,12 hour night activity,0,0.0,0,0,0.0,3184.497,56.431,False,OK
+person,Decision Tree,day night ratio,0,0.0,0,0,0.0,1.928,1.389,False,OK
+person,Decision Tree,mean absolute change activity,0,0.0,0,0,0.0,1519.383,38.979,False,OK
+person,Decision Tree,IV,0,0.0,0,0,0.0,0.033,0.182,False,OK
+person,Decision Tree,RA,0,0.0,0,0,0.0,0.017,0.129,False,OK
+person,Decision Tree,daily mean activity variance,0,0.0,0,0,0.0,98069484.157,9903.004,False,OK
+person,Decision Tree,IS,0,0.0,0,0,0.0,0.027,0.164,False,OK
+person,Decision Tree,activity night,0,0.0,0,0,0.0,1153.607,33.965,False,OK
+person,Decision Tree,activity morning,0,0.0,0,0,0.0,10827.953,104.057,False,OK
+person,Decision Tree,activity afternoon,0,0.0,0,0,0.0,17990.304,134.128,False,OK
+person,Decision Tree,activity evening,0,0.0,0,0,0.0,11274.88,106.183,False,OK
+person,Decision Tree,inactive night,0,0.0,0,0,0.0,0.037,0.193,False,OK
+person,Decision Tree,inactive morning,0,0.0,0,1,0.019,0.032,0.178,False,OK
+person,Decision Tree,inactive afternoon,0,0.0,0,1,0.019,0.02,0.14,False,OK
+person,Decision Tree,inactive evening,0,0.0,0,1,0.019,0.028,0.169,False,OK
+person,Decision Tree,person id,0,0.0,0,0,0.0,74.329,8.621,False,OK

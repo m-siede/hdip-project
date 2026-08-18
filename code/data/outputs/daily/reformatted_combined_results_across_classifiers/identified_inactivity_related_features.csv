@@ -1,0 +1,366 @@
+sample type,classifier,feature set,feature,zero proportion,corr with inactive ratio,is high inactive,is high corr with inactivity,is inactivity related
+daily,Random Forest,manual base,longest inactivity,0.062,0.758,False,True,True
+daily,Random Forest,manual base,inactive ratio,0.062,,False,False,False
+daily,Random Forest,manual base,day night ratio,0.047,0.093,False,False,False
+daily,Random Forest,manual base,sd,0.009,-0.276,False,False,False
+daily,Random Forest,manual base,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Random Forest,manual base,mean,0.0,-0.352,False,False,False
+daily,Random Forest,manual activity rhythm,RA,0.009,0.499,False,False,False
+daily,Random Forest,manual activity rhythm,IV,0.0,0.278,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 23,0.114,-0.252,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 2,0.113,-0.123,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 1,0.109,-0.123,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 19,0.108,-0.277,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 20,0.108,-0.225,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 18,0.107,-0.254,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 3,0.107,-0.111,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 21,0.104,-0.27,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 0,0.102,-0.154,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 17,0.101,-0.243,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 22,0.099,-0.287,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 4,0.099,-0.096,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 6,0.092,-0.183,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 5,0.091,-0.123,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 16,0.091,-0.27,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 7,0.078,-0.241,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 14,0.077,-0.243,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 15,0.076,-0.261,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 13,0.074,-0.26,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 12,0.067,-0.214,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 10,0.064,-0.205,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 8,0.063,-0.208,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 9,0.062,-0.189,False,False,False
+daily,Random Forest,manual hourly activity,mean activity 11,0.06,-0.189,False,False,False
+daily,Random Forest,manual six hour bins,inactive night,0.101,0.656,False,False,False
+daily,Random Forest,manual six hour bins,inactive morning,0.099,0.769,False,True,True
+daily,Random Forest,manual six hour bins,inactive afternoon,0.094,0.823,False,True,True
+daily,Random Forest,manual six hour bins,inactive evening,0.093,0.817,False,True,True
+daily,Random Forest,manual six hour bins,activity night,0.07,-0.179,False,False,False
+daily,Random Forest,manual six hour bins,activity evening,0.055,-0.328,False,False,False
+daily,Random Forest,manual six hour bins,activity morning,0.034,-0.279,False,False,False
+daily,Random Forest,manual six hour bins,activity afternoon,0.03,-0.307,False,False,False
+daily,Random Forest,manual full,is constant activity,0.991,-0.159,True,False,True
+daily,Random Forest,manual full,min,0.938,-0.421,True,False,True
+daily,Random Forest,manual full,median,0.22,-0.375,False,False,False
+daily,Random Forest,manual full,mean activity 23,0.114,-0.252,False,False,False
+daily,Random Forest,manual full,mean activity 2,0.113,-0.123,False,False,False
+daily,Random Forest,manual full,mean activity 1,0.109,-0.123,False,False,False
+daily,Random Forest,manual full,mean activity 20,0.108,-0.225,False,False,False
+daily,Random Forest,manual full,mean activity 19,0.108,-0.277,False,False,False
+daily,Random Forest,manual full,mean activity 3,0.107,-0.111,False,False,False
+daily,Random Forest,manual full,mean activity 18,0.107,-0.254,False,False,False
+daily,Random Forest,manual full,mean activity 21,0.104,-0.27,False,False,False
+daily,Random Forest,manual full,mean activity 0,0.102,-0.154,False,False,False
+daily,Random Forest,manual full,mean activity 17,0.101,-0.243,False,False,False
+daily,Random Forest,manual full,inactive night,0.101,0.656,False,False,False
+daily,Random Forest,manual full,mean activity 22,0.099,-0.287,False,False,False
+daily,Random Forest,manual full,inactive morning,0.099,0.769,False,True,True
+daily,Random Forest,manual full,mean activity 4,0.099,-0.096,False,False,False
+daily,Random Forest,manual full,inactive afternoon,0.094,0.823,False,True,True
+daily,Random Forest,manual full,inactive evening,0.093,0.817,False,True,True
+daily,Random Forest,manual full,mean activity 6,0.092,-0.183,False,False,False
+daily,Random Forest,manual full,mean activity 16,0.091,-0.27,False,False,False
+daily,Random Forest,manual full,mean activity 5,0.091,-0.123,False,False,False
+daily,Random Forest,manual full,mean activity 7,0.078,-0.241,False,False,False
+daily,Random Forest,manual full,mean activity 14,0.077,-0.243,False,False,False
+daily,Random Forest,manual full,mean activity 15,0.076,-0.261,False,False,False
+daily,Random Forest,manual full,mean activity 13,0.074,-0.26,False,False,False
+daily,Random Forest,manual full,activity night,0.07,-0.179,False,False,False
+daily,Random Forest,manual full,mean activity 12,0.067,-0.214,False,False,False
+daily,Random Forest,manual full,mean activity 10,0.064,-0.205,False,False,False
+daily,Random Forest,manual full,mean activity 8,0.063,-0.208,False,False,False
+daily,Random Forest,manual full,longest inactivity,0.062,0.758,False,True,True
+daily,Random Forest,manual full,inactive ratio,0.062,,False,False,False
+daily,Random Forest,manual full,mean activity 9,0.062,-0.189,False,False,False
+daily,Random Forest,manual full,mean activity 11,0.06,-0.189,False,False,False
+daily,Random Forest,manual full,activity evening,0.055,-0.328,False,False,False
+daily,Random Forest,manual full,day night ratio,0.047,0.093,False,False,False
+daily,Random Forest,manual full,12 hour night activity,0.037,-0.351,False,False,False
+daily,Random Forest,manual full,activity morning,0.034,-0.279,False,False,False
+daily,Random Forest,manual full,activity afternoon,0.03,-0.307,False,False,False
+daily,Random Forest,manual full,12 hour day activity,0.01,-0.317,False,False,False
+daily,Random Forest,manual full,sd,0.009,-0.276,False,False,False
+daily,Random Forest,manual full,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Random Forest,manual full,RA,0.009,0.499,False,False,False
+daily,Random Forest,manual full,mean,0.0,-0.352,False,False,False
+daily,Random Forest,manual full,max,0.0,-0.213,False,False,False
+daily,Random Forest,manual full,IV,0.0,0.278,False,False,False
+daily,Random Forest,automatic all candidates,inactive night,0.101,0.656,False,False,False
+daily,Random Forest,automatic all candidates,inactive morning,0.099,0.769,False,True,True
+daily,Random Forest,automatic all candidates,inactive afternoon,0.094,0.823,False,True,True
+daily,Random Forest,automatic all candidates,inactive evening,0.093,0.817,False,True,True
+daily,Random Forest,automatic all candidates,activity night,0.07,-0.179,False,False,False
+daily,Random Forest,automatic all candidates,inactive ratio,0.062,,False,False,False
+daily,Random Forest,automatic all candidates,longest inactivity,0.062,0.758,False,True,True
+daily,Random Forest,automatic all candidates,activity evening,0.055,-0.328,False,False,False
+daily,Random Forest,automatic all candidates,day night ratio,0.047,0.093,False,False,False
+daily,Random Forest,automatic all candidates,12 hour night activity,0.037,-0.351,False,False,False
+daily,Random Forest,automatic all candidates,activity morning,0.034,-0.279,False,False,False
+daily,Random Forest,automatic all candidates,activity afternoon,0.03,-0.307,False,False,False
+daily,Random Forest,automatic all candidates,12 hour day activity,0.01,-0.317,False,False,False
+daily,Random Forest,automatic all candidates,sd,0.009,-0.276,False,False,False
+daily,Random Forest,automatic all candidates,RA,0.009,0.499,False,False,False
+daily,Random Forest,automatic all candidates,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Random Forest,automatic all candidates,mean,0.0,-0.352,False,False,False
+daily,Random Forest,automatic all candidates,IV,0.0,0.278,False,False,False
+daily,Random Forest,automatic positive permutation,longest inactivity,0.062,0.758,False,True,True
+daily,Random Forest,automatic positive permutation,12 hour night activity,0.037,-0.351,False,False,False
+daily,Random Forest,automatic positive permutation,sd,0.009,-0.276,False,False,False
+daily,Random Forest,automatic positive permutation,RA,0.009,0.499,False,False,False
+daily,Random Forest,automatic rfecv selected,inactive morning,0.099,0.769,False,True,True
+daily,Random Forest,automatic rfecv selected,inactive evening,0.093,0.817,False,True,True
+daily,Random Forest,automatic rfecv selected,inactive ratio,0.062,,False,False,False
+daily,Random Forest,automatic rfecv selected,longest inactivity,0.062,0.758,False,True,True
+daily,Random Forest,automatic rfecv selected,activity evening,0.055,-0.328,False,False,False
+daily,Random Forest,automatic rfecv selected,day night ratio,0.047,0.093,False,False,False
+daily,Random Forest,automatic rfecv selected,12 hour night activity,0.037,-0.351,False,False,False
+daily,Random Forest,automatic rfecv selected,activity afternoon,0.03,-0.307,False,False,False
+daily,Random Forest,automatic rfecv selected,12 hour day activity,0.01,-0.317,False,False,False
+daily,Random Forest,automatic rfecv selected,RA,0.009,0.499,False,False,False
+daily,Random Forest,automatic rfecv selected,sd,0.009,-0.276,False,False,False
+daily,Random Forest,automatic rfecv selected,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Random Forest,automatic rfecv selected,mean,0.0,-0.352,False,False,False
+daily,Logistic Regression,manual base,longest inactivity,0.062,0.758,False,True,True
+daily,Logistic Regression,manual base,inactive ratio,0.062,,False,False,False
+daily,Logistic Regression,manual base,day night ratio,0.047,0.093,False,False,False
+daily,Logistic Regression,manual base,sd,0.009,-0.276,False,False,False
+daily,Logistic Regression,manual base,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Logistic Regression,manual base,mean,0.0,-0.352,False,False,False
+daily,Logistic Regression,manual activity rhythm,RA,0.009,0.499,False,False,False
+daily,Logistic Regression,manual activity rhythm,IV,0.0,0.278,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 23,0.114,-0.252,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 2,0.113,-0.123,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 1,0.109,-0.123,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 19,0.108,-0.277,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 20,0.108,-0.225,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 18,0.107,-0.254,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 3,0.107,-0.111,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 21,0.104,-0.27,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 0,0.102,-0.154,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 17,0.101,-0.243,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 22,0.099,-0.287,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 4,0.099,-0.096,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 6,0.092,-0.183,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 5,0.091,-0.123,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 16,0.091,-0.27,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 7,0.078,-0.241,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 14,0.077,-0.243,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 15,0.076,-0.261,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 13,0.074,-0.26,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 12,0.067,-0.214,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 10,0.064,-0.205,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 8,0.063,-0.208,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 9,0.062,-0.189,False,False,False
+daily,Logistic Regression,manual hourly activity,mean activity 11,0.06,-0.189,False,False,False
+daily,Logistic Regression,manual six hour bins,inactive night,0.101,0.656,False,False,False
+daily,Logistic Regression,manual six hour bins,inactive morning,0.099,0.769,False,True,True
+daily,Logistic Regression,manual six hour bins,inactive afternoon,0.094,0.823,False,True,True
+daily,Logistic Regression,manual six hour bins,inactive evening,0.093,0.817,False,True,True
+daily,Logistic Regression,manual six hour bins,activity night,0.07,-0.179,False,False,False
+daily,Logistic Regression,manual six hour bins,activity evening,0.055,-0.328,False,False,False
+daily,Logistic Regression,manual six hour bins,activity morning,0.034,-0.279,False,False,False
+daily,Logistic Regression,manual six hour bins,activity afternoon,0.03,-0.307,False,False,False
+daily,Logistic Regression,manual full,is constant activity,0.991,-0.159,True,False,True
+daily,Logistic Regression,manual full,min,0.938,-0.421,True,False,True
+daily,Logistic Regression,manual full,median,0.22,-0.375,False,False,False
+daily,Logistic Regression,manual full,mean activity 23,0.114,-0.252,False,False,False
+daily,Logistic Regression,manual full,mean activity 2,0.113,-0.123,False,False,False
+daily,Logistic Regression,manual full,mean activity 1,0.109,-0.123,False,False,False
+daily,Logistic Regression,manual full,mean activity 20,0.108,-0.225,False,False,False
+daily,Logistic Regression,manual full,mean activity 19,0.108,-0.277,False,False,False
+daily,Logistic Regression,manual full,mean activity 3,0.107,-0.111,False,False,False
+daily,Logistic Regression,manual full,mean activity 18,0.107,-0.254,False,False,False
+daily,Logistic Regression,manual full,mean activity 21,0.104,-0.27,False,False,False
+daily,Logistic Regression,manual full,mean activity 0,0.102,-0.154,False,False,False
+daily,Logistic Regression,manual full,mean activity 17,0.101,-0.243,False,False,False
+daily,Logistic Regression,manual full,inactive night,0.101,0.656,False,False,False
+daily,Logistic Regression,manual full,mean activity 22,0.099,-0.287,False,False,False
+daily,Logistic Regression,manual full,inactive morning,0.099,0.769,False,True,True
+daily,Logistic Regression,manual full,mean activity 4,0.099,-0.096,False,False,False
+daily,Logistic Regression,manual full,inactive afternoon,0.094,0.823,False,True,True
+daily,Logistic Regression,manual full,inactive evening,0.093,0.817,False,True,True
+daily,Logistic Regression,manual full,mean activity 6,0.092,-0.183,False,False,False
+daily,Logistic Regression,manual full,mean activity 16,0.091,-0.27,False,False,False
+daily,Logistic Regression,manual full,mean activity 5,0.091,-0.123,False,False,False
+daily,Logistic Regression,manual full,mean activity 7,0.078,-0.241,False,False,False
+daily,Logistic Regression,manual full,mean activity 14,0.077,-0.243,False,False,False
+daily,Logistic Regression,manual full,mean activity 15,0.076,-0.261,False,False,False
+daily,Logistic Regression,manual full,mean activity 13,0.074,-0.26,False,False,False
+daily,Logistic Regression,manual full,activity night,0.07,-0.179,False,False,False
+daily,Logistic Regression,manual full,mean activity 12,0.067,-0.214,False,False,False
+daily,Logistic Regression,manual full,mean activity 10,0.064,-0.205,False,False,False
+daily,Logistic Regression,manual full,mean activity 8,0.063,-0.208,False,False,False
+daily,Logistic Regression,manual full,longest inactivity,0.062,0.758,False,True,True
+daily,Logistic Regression,manual full,inactive ratio,0.062,,False,False,False
+daily,Logistic Regression,manual full,mean activity 9,0.062,-0.189,False,False,False
+daily,Logistic Regression,manual full,mean activity 11,0.06,-0.189,False,False,False
+daily,Logistic Regression,manual full,activity evening,0.055,-0.328,False,False,False
+daily,Logistic Regression,manual full,day night ratio,0.047,0.093,False,False,False
+daily,Logistic Regression,manual full,12 hour night activity,0.037,-0.351,False,False,False
+daily,Logistic Regression,manual full,activity morning,0.034,-0.279,False,False,False
+daily,Logistic Regression,manual full,activity afternoon,0.03,-0.307,False,False,False
+daily,Logistic Regression,manual full,12 hour day activity,0.01,-0.317,False,False,False
+daily,Logistic Regression,manual full,sd,0.009,-0.276,False,False,False
+daily,Logistic Regression,manual full,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Logistic Regression,manual full,RA,0.009,0.499,False,False,False
+daily,Logistic Regression,manual full,mean,0.0,-0.352,False,False,False
+daily,Logistic Regression,manual full,max,0.0,-0.213,False,False,False
+daily,Logistic Regression,manual full,IV,0.0,0.278,False,False,False
+daily,Logistic Regression,automatic all candidates,inactive night,0.101,0.656,False,False,False
+daily,Logistic Regression,automatic all candidates,inactive morning,0.099,0.769,False,True,True
+daily,Logistic Regression,automatic all candidates,inactive afternoon,0.094,0.823,False,True,True
+daily,Logistic Regression,automatic all candidates,inactive evening,0.093,0.817,False,True,True
+daily,Logistic Regression,automatic all candidates,activity night,0.07,-0.179,False,False,False
+daily,Logistic Regression,automatic all candidates,inactive ratio,0.062,,False,False,False
+daily,Logistic Regression,automatic all candidates,longest inactivity,0.062,0.758,False,True,True
+daily,Logistic Regression,automatic all candidates,activity evening,0.055,-0.328,False,False,False
+daily,Logistic Regression,automatic all candidates,day night ratio,0.047,0.093,False,False,False
+daily,Logistic Regression,automatic all candidates,12 hour night activity,0.037,-0.351,False,False,False
+daily,Logistic Regression,automatic all candidates,activity morning,0.034,-0.279,False,False,False
+daily,Logistic Regression,automatic all candidates,activity afternoon,0.03,-0.307,False,False,False
+daily,Logistic Regression,automatic all candidates,12 hour day activity,0.01,-0.317,False,False,False
+daily,Logistic Regression,automatic all candidates,sd,0.009,-0.276,False,False,False
+daily,Logistic Regression,automatic all candidates,RA,0.009,0.499,False,False,False
+daily,Logistic Regression,automatic all candidates,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Logistic Regression,automatic all candidates,mean,0.0,-0.352,False,False,False
+daily,Logistic Regression,automatic all candidates,IV,0.0,0.278,False,False,False
+daily,Logistic Regression,automatic positive permutation,inactive night,0.101,0.656,False,False,False
+daily,Logistic Regression,automatic positive permutation,inactive morning,0.099,0.769,False,True,True
+daily,Logistic Regression,automatic positive permutation,inactive afternoon,0.094,0.823,False,True,True
+daily,Logistic Regression,automatic positive permutation,inactive evening,0.093,0.817,False,True,True
+daily,Logistic Regression,automatic positive permutation,activity night,0.07,-0.179,False,False,False
+daily,Logistic Regression,automatic positive permutation,inactive ratio,0.062,,False,False,False
+daily,Logistic Regression,automatic positive permutation,longest inactivity,0.062,0.758,False,True,True
+daily,Logistic Regression,automatic positive permutation,activity evening,0.055,-0.328,False,False,False
+daily,Logistic Regression,automatic positive permutation,day night ratio,0.047,0.093,False,False,False
+daily,Logistic Regression,automatic positive permutation,12 hour night activity,0.037,-0.351,False,False,False
+daily,Logistic Regression,automatic positive permutation,activity afternoon,0.03,-0.307,False,False,False
+daily,Logistic Regression,automatic positive permutation,12 hour day activity,0.01,-0.317,False,False,False
+daily,Logistic Regression,automatic positive permutation,sd,0.009,-0.276,False,False,False
+daily,Logistic Regression,automatic positive permutation,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Logistic Regression,automatic positive permutation,IV,0.0,0.278,False,False,False
+daily,Logistic Regression,automatic positive permutation,mean,0.0,-0.352,False,False,False
+daily,Logistic Regression,automatic rfecv selected,inactive night,0.101,0.656,False,False,False
+daily,Logistic Regression,automatic rfecv selected,inactive morning,0.099,0.769,False,True,True
+daily,Logistic Regression,automatic rfecv selected,inactive afternoon,0.094,0.823,False,True,True
+daily,Logistic Regression,automatic rfecv selected,inactive evening,0.093,0.817,False,True,True
+daily,Logistic Regression,automatic rfecv selected,activity night,0.07,-0.179,False,False,False
+daily,Logistic Regression,automatic rfecv selected,longest inactivity,0.062,0.758,False,True,True
+daily,Logistic Regression,automatic rfecv selected,inactive ratio,0.062,,False,False,False
+daily,Logistic Regression,automatic rfecv selected,day night ratio,0.047,0.093,False,False,False
+daily,Logistic Regression,automatic rfecv selected,12 hour night activity,0.037,-0.351,False,False,False
+daily,Logistic Regression,automatic rfecv selected,activity afternoon,0.03,-0.307,False,False,False
+daily,Logistic Regression,automatic rfecv selected,12 hour day activity,0.01,-0.317,False,False,False
+daily,Logistic Regression,automatic rfecv selected,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Logistic Regression,automatic rfecv selected,sd,0.009,-0.276,False,False,False
+daily,Logistic Regression,automatic rfecv selected,RA,0.009,0.499,False,False,False
+daily,Logistic Regression,automatic rfecv selected,IV,0.0,0.278,False,False,False
+daily,Decision Tree,manual base,longest inactivity,0.062,0.758,False,True,True
+daily,Decision Tree,manual base,inactive ratio,0.062,,False,False,False
+daily,Decision Tree,manual base,day night ratio,0.047,0.093,False,False,False
+daily,Decision Tree,manual base,sd,0.009,-0.276,False,False,False
+daily,Decision Tree,manual base,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Decision Tree,manual base,mean,0.0,-0.352,False,False,False
+daily,Decision Tree,manual activity rhythm,RA,0.009,0.499,False,False,False
+daily,Decision Tree,manual activity rhythm,IV,0.0,0.278,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 23,0.114,-0.252,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 2,0.113,-0.123,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 1,0.109,-0.123,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 19,0.108,-0.277,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 20,0.108,-0.225,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 18,0.107,-0.254,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 3,0.107,-0.111,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 21,0.104,-0.27,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 0,0.102,-0.154,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 17,0.101,-0.243,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 22,0.099,-0.287,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 4,0.099,-0.096,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 6,0.092,-0.183,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 5,0.091,-0.123,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 16,0.091,-0.27,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 7,0.078,-0.241,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 14,0.077,-0.243,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 15,0.076,-0.261,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 13,0.074,-0.26,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 12,0.067,-0.214,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 10,0.064,-0.205,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 8,0.063,-0.208,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 9,0.062,-0.189,False,False,False
+daily,Decision Tree,manual hourly activity,mean activity 11,0.06,-0.189,False,False,False
+daily,Decision Tree,manual six hour bins,inactive night,0.101,0.656,False,False,False
+daily,Decision Tree,manual six hour bins,inactive morning,0.099,0.769,False,True,True
+daily,Decision Tree,manual six hour bins,inactive afternoon,0.094,0.823,False,True,True
+daily,Decision Tree,manual six hour bins,inactive evening,0.093,0.817,False,True,True
+daily,Decision Tree,manual six hour bins,activity night,0.07,-0.179,False,False,False
+daily,Decision Tree,manual six hour bins,activity evening,0.055,-0.328,False,False,False
+daily,Decision Tree,manual six hour bins,activity morning,0.034,-0.279,False,False,False
+daily,Decision Tree,manual six hour bins,activity afternoon,0.03,-0.307,False,False,False
+daily,Decision Tree,manual full,is constant activity,0.991,-0.159,True,False,True
+daily,Decision Tree,manual full,min,0.938,-0.421,True,False,True
+daily,Decision Tree,manual full,median,0.22,-0.375,False,False,False
+daily,Decision Tree,manual full,mean activity 23,0.114,-0.252,False,False,False
+daily,Decision Tree,manual full,mean activity 2,0.113,-0.123,False,False,False
+daily,Decision Tree,manual full,mean activity 1,0.109,-0.123,False,False,False
+daily,Decision Tree,manual full,mean activity 20,0.108,-0.225,False,False,False
+daily,Decision Tree,manual full,mean activity 19,0.108,-0.277,False,False,False
+daily,Decision Tree,manual full,mean activity 3,0.107,-0.111,False,False,False
+daily,Decision Tree,manual full,mean activity 18,0.107,-0.254,False,False,False
+daily,Decision Tree,manual full,mean activity 21,0.104,-0.27,False,False,False
+daily,Decision Tree,manual full,mean activity 0,0.102,-0.154,False,False,False
+daily,Decision Tree,manual full,mean activity 17,0.101,-0.243,False,False,False
+daily,Decision Tree,manual full,inactive night,0.101,0.656,False,False,False
+daily,Decision Tree,manual full,mean activity 22,0.099,-0.287,False,False,False
+daily,Decision Tree,manual full,inactive morning,0.099,0.769,False,True,True
+daily,Decision Tree,manual full,mean activity 4,0.099,-0.096,False,False,False
+daily,Decision Tree,manual full,inactive afternoon,0.094,0.823,False,True,True
+daily,Decision Tree,manual full,inactive evening,0.093,0.817,False,True,True
+daily,Decision Tree,manual full,mean activity 6,0.092,-0.183,False,False,False
+daily,Decision Tree,manual full,mean activity 16,0.091,-0.27,False,False,False
+daily,Decision Tree,manual full,mean activity 5,0.091,-0.123,False,False,False
+daily,Decision Tree,manual full,mean activity 7,0.078,-0.241,False,False,False
+daily,Decision Tree,manual full,mean activity 14,0.077,-0.243,False,False,False
+daily,Decision Tree,manual full,mean activity 15,0.076,-0.261,False,False,False
+daily,Decision Tree,manual full,mean activity 13,0.074,-0.26,False,False,False
+daily,Decision Tree,manual full,activity night,0.07,-0.179,False,False,False
+daily,Decision Tree,manual full,mean activity 12,0.067,-0.214,False,False,False
+daily,Decision Tree,manual full,mean activity 10,0.064,-0.205,False,False,False
+daily,Decision Tree,manual full,mean activity 8,0.063,-0.208,False,False,False
+daily,Decision Tree,manual full,longest inactivity,0.062,0.758,False,True,True
+daily,Decision Tree,manual full,inactive ratio,0.062,,False,False,False
+daily,Decision Tree,manual full,mean activity 9,0.062,-0.189,False,False,False
+daily,Decision Tree,manual full,mean activity 11,0.06,-0.189,False,False,False
+daily,Decision Tree,manual full,activity evening,0.055,-0.328,False,False,False
+daily,Decision Tree,manual full,day night ratio,0.047,0.093,False,False,False
+daily,Decision Tree,manual full,12 hour night activity,0.037,-0.351,False,False,False
+daily,Decision Tree,manual full,activity morning,0.034,-0.279,False,False,False
+daily,Decision Tree,manual full,activity afternoon,0.03,-0.307,False,False,False
+daily,Decision Tree,manual full,12 hour day activity,0.01,-0.317,False,False,False
+daily,Decision Tree,manual full,sd,0.009,-0.276,False,False,False
+daily,Decision Tree,manual full,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Decision Tree,manual full,RA,0.009,0.499,False,False,False
+daily,Decision Tree,manual full,mean,0.0,-0.352,False,False,False
+daily,Decision Tree,manual full,max,0.0,-0.213,False,False,False
+daily,Decision Tree,manual full,IV,0.0,0.278,False,False,False
+daily,Decision Tree,automatic all candidates,inactive night,0.101,0.656,False,False,False
+daily,Decision Tree,automatic all candidates,inactive morning,0.099,0.769,False,True,True
+daily,Decision Tree,automatic all candidates,inactive afternoon,0.094,0.823,False,True,True
+daily,Decision Tree,automatic all candidates,inactive evening,0.093,0.817,False,True,True
+daily,Decision Tree,automatic all candidates,activity night,0.07,-0.179,False,False,False
+daily,Decision Tree,automatic all candidates,inactive ratio,0.062,,False,False,False
+daily,Decision Tree,automatic all candidates,longest inactivity,0.062,0.758,False,True,True
+daily,Decision Tree,automatic all candidates,activity evening,0.055,-0.328,False,False,False
+daily,Decision Tree,automatic all candidates,day night ratio,0.047,0.093,False,False,False
+daily,Decision Tree,automatic all candidates,12 hour night activity,0.037,-0.351,False,False,False
+daily,Decision Tree,automatic all candidates,activity morning,0.034,-0.279,False,False,False
+daily,Decision Tree,automatic all candidates,activity afternoon,0.03,-0.307,False,False,False
+daily,Decision Tree,automatic all candidates,12 hour day activity,0.01,-0.317,False,False,False
+daily,Decision Tree,automatic all candidates,sd,0.009,-0.276,False,False,False
+daily,Decision Tree,automatic all candidates,RA,0.009,0.499,False,False,False
+daily,Decision Tree,automatic all candidates,mean absolute change activity,0.009,-0.351,False,False,False
+daily,Decision Tree,automatic all candidates,mean,0.0,-0.352,False,False,False
+daily,Decision Tree,automatic all candidates,IV,0.0,0.278,False,False,False
+daily,Decision Tree,automatic positive permutation,inactive ratio,0.062,,False,False,False
+daily,Decision Tree,automatic positive permutation,12 hour night activity,0.037,-0.351,False,False,False
+daily,Decision Tree,automatic positive permutation,12 hour day activity,0.01,-0.317,False,False,False
+daily,Decision Tree,automatic positive permutation,sd,0.009,-0.276,False,False,False
+daily,Decision Tree,automatic rfecv selected,inactive ratio,0.062,,False,False,False

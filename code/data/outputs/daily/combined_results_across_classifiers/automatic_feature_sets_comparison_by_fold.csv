@@ -1,0 +1,19 @@
+sample_type,classifier,result_1,result_2,feature_set_1,feature_set_2,scoring_metric,mean_1,mean_2,mean_difference,std_difference,result_1_better_folds,result_2_better_folds,tied_folds
+daily,Random Forest,RandomForestClassifier_all_candidates,RandomForestClassifier_positive_permutation,all_candidates,positive_permutation,balanced_accuracy,0.813,0.823,-0.011,0.012,1,4,0
+daily,Random Forest,RandomForestClassifier_all_candidates,RandomForestClassifier_rfecv_selected,all_candidates,rfecv_selected,balanced_accuracy,0.813,0.824,-0.011,0.01,0,3,2
+daily,Random Forest,RandomForestClassifier_all_candidates,RandomForestClassifier_select_from_model,all_candidates,select_from_model,balanced_accuracy,0.813,0.815,-0.002,0.013,2,2,1
+daily,Random Forest,RandomForestClassifier_positive_permutation,RandomForestClassifier_rfecv_selected,positive_permutation,rfecv_selected,balanced_accuracy,0.823,0.824,-0.001,0.015,3,2,0
+daily,Random Forest,RandomForestClassifier_positive_permutation,RandomForestClassifier_select_from_model,positive_permutation,select_from_model,balanced_accuracy,0.823,0.815,0.009,0.008,4,1,0
+daily,Random Forest,RandomForestClassifier_rfecv_selected,RandomForestClassifier_select_from_model,rfecv_selected,select_from_model,balanced_accuracy,0.824,0.815,0.009,0.013,4,0,1
+daily,Logistic Regression,LogisticRegression_all_candidates,LogisticRegression_positive_permutation,all_candidates,positive_permutation,balanced_accuracy,0.816,0.825,-0.009,0.003,0,5,0
+daily,Logistic Regression,LogisticRegression_all_candidates,LogisticRegression_rfecv_selected,all_candidates,rfecv_selected,balanced_accuracy,0.816,0.82,-0.004,0.0,0,5,0
+daily,Logistic Regression,LogisticRegression_all_candidates,LogisticRegression_select_from_model,all_candidates,select_from_model,balanced_accuracy,0.816,0.801,0.015,0.026,4,1,0
+daily,Logistic Regression,LogisticRegression_positive_permutation,LogisticRegression_rfecv_selected,positive_permutation,rfecv_selected,balanced_accuracy,0.825,0.82,0.005,0.003,4,0,1
+daily,Logistic Regression,LogisticRegression_positive_permutation,LogisticRegression_select_from_model,positive_permutation,select_from_model,balanced_accuracy,0.825,0.801,0.024,0.028,4,1,0
+daily,Logistic Regression,LogisticRegression_rfecv_selected,LogisticRegression_select_from_model,rfecv_selected,select_from_model,balanced_accuracy,0.82,0.801,0.019,0.026,4,1,0
+daily,Decision Tree,DecisionTreeClassifier_all_candidates,DecisionTreeClassifier_positive_permutation,all_candidates,positive_permutation,balanced_accuracy,0.724,0.724,0.0,0.0,0,0,5
+daily,Decision Tree,DecisionTreeClassifier_all_candidates,DecisionTreeClassifier_rfecv_selected,all_candidates,rfecv_selected,balanced_accuracy,0.724,0.746,-0.022,0.043,2,3,0
+daily,Decision Tree,DecisionTreeClassifier_all_candidates,DecisionTreeClassifier_select_from_model,all_candidates,select_from_model,balanced_accuracy,0.724,0.72,0.004,0.008,1,0,4
+daily,Decision Tree,DecisionTreeClassifier_positive_permutation,DecisionTreeClassifier_rfecv_selected,positive_permutation,rfecv_selected,balanced_accuracy,0.724,0.746,-0.022,0.043,2,3,0
+daily,Decision Tree,DecisionTreeClassifier_positive_permutation,DecisionTreeClassifier_select_from_model,positive_permutation,select_from_model,balanced_accuracy,0.724,0.72,0.004,0.008,1,0,4
+daily,Decision Tree,DecisionTreeClassifier_rfecv_selected,DecisionTreeClassifier_select_from_model,rfecv_selected,select_from_model,balanced_accuracy,0.746,0.72,0.026,0.039,3,2,0

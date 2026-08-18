@@ -1,0 +1,13 @@
+sample_type,classifier,name,feature_set,feature_set_type,n_features,accuracy_mean,accuracy_std,balanced_accuracy_mean,balanced_accuracy_std,average_precision_mean,average_precision_std,f1_mean,f1_std,precision_mean,precision_std,recall_mean,recall_std,rank
+daily,Random Forest,RandomForestClassifier_rfecv_selected,rfecv_selected,automatic,13,0.832,0.049,0.824,0.053,0.833,0.114,0.768,0.077,0.741,0.088,0.797,0.066,1
+daily,Random Forest,RandomForestClassifier_positive_permutation,positive_permutation,automatic,4,0.825,0.053,0.823,0.051,0.831,0.111,0.767,0.071,0.723,0.089,0.819,0.047,2
+daily,Random Forest,RandomForestClassifier_select_from_model,select_from_model,automatic,18,0.822,0.056,0.815,0.057,0.831,0.109,0.757,0.079,0.727,0.099,0.791,0.059,3
+daily,Random Forest,RandomForestClassifier_all_candidates,all_candidates,automatic,18,0.821,0.045,0.813,0.049,0.847,0.096,0.754,0.07,0.723,0.078,0.788,0.061,4
+daily,Logistic Regression,LogisticRegression_positive_permutation,positive_permutation,automatic,16,0.815,0.053,0.825,0.052,0.813,0.086,0.764,0.068,0.698,0.082,0.851,0.072,1
+daily,Logistic Regression,LogisticRegression_rfecv_selected,rfecv_selected,automatic,15,0.812,0.054,0.82,0.052,0.816,0.087,0.759,0.068,0.697,0.087,0.839,0.064,2
+daily,Logistic Regression,LogisticRegression_all_candidates,all_candidates,automatic,18,0.807,0.054,0.816,0.052,0.815,0.087,0.754,0.067,0.689,0.085,0.839,0.064,3
+daily,Logistic Regression,LogisticRegression_select_from_model,select_from_model,automatic,18,0.789,0.067,0.801,0.067,0.793,0.088,0.735,0.081,0.665,0.095,0.832,0.091,4
+daily,Decision Tree,DecisionTreeClassifier_rfecv_selected,rfecv_selected,automatic,1,0.752,0.045,0.746,0.052,0.575,0.069,0.672,0.075,0.625,0.075,0.732,0.097,1
+daily,Decision Tree,DecisionTreeClassifier_all_candidates,all_candidates,automatic,18,0.72,0.037,0.724,0.053,0.548,0.062,0.649,0.079,0.572,0.055,0.751,0.121,2
+daily,Decision Tree,DecisionTreeClassifier_positive_permutation,positive_permutation,automatic,4,0.72,0.037,0.724,0.053,0.55,0.064,0.649,0.079,0.572,0.055,0.751,0.121,2
+daily,Decision Tree,DecisionTreeClassifier_select_from_model,select_from_model,automatic,18,0.715,0.04,0.72,0.056,0.543,0.068,0.644,0.084,0.565,0.061,0.751,0.121,4

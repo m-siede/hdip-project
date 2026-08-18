@@ -1,0 +1,31 @@
+sample type,classifier,result 1,result 2,feature set 1,feature set 2,scoring metric,mean 1,mean 2,mean difference,std difference,result 1 better folds,result 2 better folds,tied folds
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier activity rhythm,base,activity rhythm,balanced accuracy,0.84,0.659,0.181,0.107,5,0,0
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier hourly activity,base,hourly activity,balanced accuracy,0.84,0.795,0.045,0.102,3,2,0
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier six hour bins,base,six hour bins,balanced accuracy,0.84,0.718,0.122,0.117,4,1,0
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier full,base,full,balanced accuracy,0.84,0.795,0.045,0.102,3,2,0
+person,Random Forest,RandomForestClassifier activity rhythm,RandomForestClassifier hourly activity,activity rhythm,hourly activity,balanced accuracy,0.659,0.795,-0.136,0.101,1,4,0
+person,Random Forest,RandomForestClassifier activity rhythm,RandomForestClassifier six hour bins,activity rhythm,six hour bins,balanced accuracy,0.659,0.718,-0.059,0.089,1,4,0
+person,Random Forest,RandomForestClassifier activity rhythm,RandomForestClassifier full,activity rhythm,full,balanced accuracy,0.659,0.795,-0.136,0.101,1,4,0
+person,Random Forest,RandomForestClassifier hourly activity,RandomForestClassifier six hour bins,hourly activity,six hour bins,balanced accuracy,0.795,0.718,0.077,0.051,4,0,1
+person,Random Forest,RandomForestClassifier hourly activity,RandomForestClassifier full,hourly activity,full,balanced accuracy,0.795,0.795,0.0,0.0,0,0,5
+person,Random Forest,RandomForestClassifier six hour bins,RandomForestClassifier full,six hour bins,full,balanced accuracy,0.718,0.795,-0.077,0.051,0,4,1
+person,Logistic Regression,LogisticRegression base,LogisticRegression activity rhythm,base,activity rhythm,balanced accuracy,0.905,0.806,0.099,0.051,4,0,1
+person,Logistic Regression,LogisticRegression base,LogisticRegression hourly activity,base,hourly activity,balanced accuracy,0.905,0.891,0.014,0.06,2,1,2
+person,Logistic Regression,LogisticRegression base,LogisticRegression six hour bins,base,six hour bins,balanced accuracy,0.905,0.806,0.099,0.07,4,0,1
+person,Logistic Regression,LogisticRegression base,LogisticRegression full,base,full,balanced accuracy,0.905,0.927,-0.022,0.063,1,2,2
+person,Logistic Regression,LogisticRegression activity rhythm,LogisticRegression hourly activity,activity rhythm,hourly activity,balanced accuracy,0.806,0.891,-0.084,0.076,0,4,1
+person,Logistic Regression,LogisticRegression activity rhythm,LogisticRegression six hour bins,activity rhythm,six hour bins,balanced accuracy,0.806,0.806,0.0,0.071,2,2,1
+person,Logistic Regression,LogisticRegression activity rhythm,LogisticRegression full,activity rhythm,full,balanced accuracy,0.806,0.927,-0.121,0.037,0,5,0
+person,Logistic Regression,LogisticRegression hourly activity,LogisticRegression six hour bins,hourly activity,six hour bins,balanced accuracy,0.891,0.806,0.085,0.097,4,1,0
+person,Logistic Regression,LogisticRegression hourly activity,LogisticRegression full,hourly activity,full,balanced accuracy,0.891,0.927,-0.037,0.087,1,2,2
+person,Logistic Regression,LogisticRegression six hour bins,LogisticRegression full,six hour bins,full,balanced accuracy,0.806,0.927,-0.121,0.041,0,5,0
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier activity rhythm,base,activity rhythm,balanced accuracy,0.823,0.517,0.306,0.096,5,0,0
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier hourly activity,base,hourly activity,balanced accuracy,0.823,0.754,0.069,0.163,3,1,1
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier six hour bins,base,six hour bins,balanced accuracy,0.823,0.685,0.138,0.222,3,2,0
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier full,base,full,balanced accuracy,0.823,0.726,0.098,0.068,4,0,1
+person,Decision Tree,DecisionTreeClassifier activity rhythm,DecisionTreeClassifier hourly activity,activity rhythm,hourly activity,balanced accuracy,0.517,0.754,-0.237,0.098,0,5,0
+person,Decision Tree,DecisionTreeClassifier activity rhythm,DecisionTreeClassifier six hour bins,activity rhythm,six hour bins,balanced accuracy,0.517,0.685,-0.168,0.142,0,5,0
+person,Decision Tree,DecisionTreeClassifier activity rhythm,DecisionTreeClassifier full,activity rhythm,full,balanced accuracy,0.517,0.726,-0.209,0.102,0,5,0
+person,Decision Tree,DecisionTreeClassifier hourly activity,DecisionTreeClassifier six hour bins,hourly activity,six hour bins,balanced accuracy,0.754,0.685,0.069,0.136,4,1,0
+person,Decision Tree,DecisionTreeClassifier hourly activity,DecisionTreeClassifier full,hourly activity,full,balanced accuracy,0.754,0.726,0.028,0.138,3,2,0
+person,Decision Tree,DecisionTreeClassifier six hour bins,DecisionTreeClassifier full,six hour bins,full,balanced accuracy,0.685,0.726,-0.04,0.227,2,3,0

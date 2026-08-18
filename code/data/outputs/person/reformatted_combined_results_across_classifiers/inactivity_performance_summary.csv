@@ -1,0 +1,73 @@
+sample type,classifier,name,feature set,feature set type,n features,accuracy mean,accuracy std,balanced accuracy mean,balanced accuracy std,average precision mean,average precision std,f1 mean,f1 std,precision mean,precision std,recall mean,recall std
+person,Random Forest,RandomForestClassifier manual base baseline,manual base,inactivity baseline,7,0.849,0.129,0.84,0.139,0.915,0.086,0.808,0.173,0.843,0.135,0.78,0.204
+person,Random Forest,RandomForestClassifier manual base shuffled y,manual base,shuffled y,7,0.52,0.191,0.514,0.194,0.49,0.1,0.443,0.213,0.43,0.209,0.47,0.238
+person,Random Forest,RandomForestClassifier manual base inactivity reduced,manual base,inactivity reduced,6,0.831,0.15,0.823,0.157,0.928,0.064,0.794,0.186,0.813,0.165,0.78,0.204
+person,Random Forest,RandomForestClassifier manual activity rhythm baseline,manual activity rhythm,inactivity baseline,3,0.684,0.098,0.659,0.095,0.788,0.052,0.585,0.135,0.683,0.186,0.58,0.196
+person,Random Forest,RandomForestClassifier manual activity rhythm shuffled y,manual activity rhythm,shuffled y,3,0.54,0.146,0.508,0.162,0.575,0.201,0.379,0.232,0.427,0.275,0.35,0.21
+person,Random Forest,RandomForestClassifier manual activity rhythm inactivity reduced,manual activity rhythm,inactivity reduced,3,0.684,0.098,0.659,0.095,0.788,0.052,0.585,0.135,0.683,0.186,0.58,0.196
+person,Random Forest,RandomForestClassifier manual hourly activity baseline,manual hourly activity,inactivity baseline,24,0.796,0.067,0.795,0.064,0.813,0.101,0.76,0.065,0.767,0.122,0.78,0.129
+person,Random Forest,RandomForestClassifier manual hourly activity shuffled y,manual hourly activity,shuffled y,24,0.538,0.047,0.485,0.079,0.495,0.127,0.285,0.245,0.3,0.245,0.29,0.269
+person,Random Forest,RandomForestClassifier manual hourly activity inactivity reduced,manual hourly activity,inactivity reduced,24,0.796,0.067,0.795,0.064,0.813,0.101,0.76,0.065,0.767,0.122,0.78,0.129
+person,Random Forest,RandomForestClassifier manual six hour bins baseline,manual six hour bins,inactivity baseline,8,0.724,0.077,0.718,0.087,0.73,0.085,0.647,0.098,0.707,0.15,0.65,0.21
+person,Random Forest,RandomForestClassifier manual six hour bins shuffled y,manual six hour bins,shuffled y,8,0.425,0.106,0.385,0.084,0.468,0.126,0.192,0.1,0.23,0.16,0.18,0.093
+person,Random Forest,RandomForestClassifier manual six hour bins inactivity reduced,manual six hour bins,inactivity reduced,4,0.631,0.111,0.638,0.108,0.728,0.15,0.554,0.156,0.559,0.151,0.61,0.265
+person,Random Forest,RandomForestClassifier manual full baseline,manual full,inactivity baseline,48,0.796,0.067,0.795,0.064,0.931,0.057,0.76,0.065,0.767,0.122,0.78,0.129
+person,Random Forest,RandomForestClassifier manual full shuffled y,manual full,shuffled y,48,0.48,0.099,0.43,0.08,0.503,0.148,0.232,0.211,0.217,0.194,0.25,0.232
+person,Random Forest,RandomForestClassifier manual full inactivity reduced,manual full,inactivity reduced,41,0.815,0.129,0.814,0.134,0.908,0.078,0.781,0.146,0.78,0.129,0.79,0.18
+person,Random Forest,RandomForestClassifier automatic all candidates baseline,automatic all candidates,inactivity baseline,20,0.815,0.129,0.814,0.134,0.916,0.077,0.781,0.146,0.78,0.129,0.79,0.18
+person,Random Forest,RandomForestClassifier automatic all candidates shuffled y,automatic all candidates,shuffled y,20,0.52,0.128,0.47,0.133,0.5,0.145,0.264,0.249,0.27,0.248,0.26,0.25
+person,Random Forest,RandomForestClassifier automatic all candidates inactivity reduced,automatic all candidates,inactivity reduced,15,0.831,0.138,0.82,0.148,0.911,0.088,0.781,0.182,0.833,0.139,0.74,0.215
+person,Random Forest,RandomForestClassifier automatic positive permutation baseline,automatic positive permutation,inactivity baseline,3,0.867,0.101,0.871,0.103,0.964,0.056,0.843,0.119,0.847,0.148,0.87,0.166
+person,Random Forest,RandomForestClassifier automatic positive permutation shuffled y,automatic positive permutation,shuffled y,3,0.464,0.192,0.452,0.192,0.536,0.131,0.368,0.211,0.36,0.208,0.38,0.216
+person,Random Forest,RandomForestClassifier automatic positive permutation inactivity reduced,automatic positive permutation,inactivity reduced,2,0.775,0.105,0.784,0.117,0.94,0.104,0.742,0.13,0.718,0.17,0.82,0.223
+person,Random Forest,RandomForestClassifier automatic rfecv selected baseline,automatic rfecv selected,inactivity baseline,10,0.887,0.092,0.882,0.097,0.928,0.06,0.86,0.116,0.91,0.111,0.83,0.154
+person,Random Forest,RandomForestClassifier automatic rfecv selected shuffled y,automatic rfecv selected,shuffled y,10,0.522,0.138,0.478,0.14,0.502,0.11,0.314,0.195,0.383,0.233,0.27,0.172
+person,Random Forest,RandomForestClassifier automatic rfecv selected inactivity reduced,automatic rfecv selected,inactivity reduced,8,0.849,0.129,0.84,0.139,0.931,0.061,0.808,0.173,0.843,0.135,0.78,0.204
+person,Logistic Regression,LogisticRegression manual base baseline,manual base,inactivity baseline,7,0.905,0.086,0.905,0.088,0.977,0.033,0.892,0.102,0.877,0.104,0.91,0.111
+person,Logistic Regression,LogisticRegression manual base shuffled y,manual base,shuffled y,7,0.576,0.117,0.574,0.128,0.596,0.138,0.526,0.153,0.476,0.13,0.59,0.183
+person,Logistic Regression,LogisticRegression manual base inactivity reduced,manual base,inactivity reduced,6,0.924,0.074,0.925,0.076,0.948,0.045,0.914,0.091,0.883,0.1,0.95,0.1
+person,Logistic Regression,LogisticRegression manual activity rhythm baseline,manual activity rhythm,inactivity baseline,3,0.813,0.066,0.806,0.074,0.805,0.099,0.766,0.1,0.787,0.122,0.77,0.16
+person,Logistic Regression,LogisticRegression manual activity rhythm shuffled y,manual activity rhythm,shuffled y,3,0.575,0.106,0.58,0.124,0.602,0.137,0.541,0.175,0.465,0.136,0.66,0.26
+person,Logistic Regression,LogisticRegression manual activity rhythm inactivity reduced,manual activity rhythm,inactivity reduced,3,0.813,0.066,0.806,0.074,0.805,0.099,0.766,0.1,0.787,0.122,0.77,0.16
+person,Logistic Regression,LogisticRegression manual hourly activity baseline,manual hourly activity,inactivity baseline,24,0.889,0.068,0.891,0.067,0.933,0.041,0.876,0.069,0.863,0.116,0.91,0.111
+person,Logistic Regression,LogisticRegression manual hourly activity shuffled y,manual hourly activity,shuffled y,24,0.662,0.143,0.648,0.141,0.615,0.16,0.595,0.174,0.618,0.239,0.62,0.216
+person,Logistic Regression,LogisticRegression manual hourly activity inactivity reduced,manual hourly activity,inactivity reduced,24,0.889,0.068,0.891,0.067,0.933,0.041,0.876,0.069,0.863,0.116,0.91,0.111
+person,Logistic Regression,LogisticRegression manual six hour bins baseline,manual six hour bins,inactivity baseline,8,0.795,0.094,0.806,0.102,0.875,0.069,0.765,0.124,0.708,0.096,0.86,0.196
+person,Logistic Regression,LogisticRegression manual six hour bins shuffled y,manual six hour bins,shuffled y,8,0.48,0.141,0.469,0.152,0.457,0.093,0.381,0.188,0.36,0.159,0.41,0.222
+person,Logistic Regression,LogisticRegression manual six hour bins inactivity reduced,manual six hour bins,inactivity reduced,4,0.647,0.071,0.668,0.063,0.756,0.138,0.63,0.088,0.554,0.07,0.77,0.204
+person,Logistic Regression,LogisticRegression manual full baseline,manual full,inactivity baseline,48,0.924,0.074,0.927,0.076,0.962,0.04,0.91,0.092,0.877,0.104,0.95,0.1
+person,Logistic Regression,LogisticRegression manual full shuffled y,manual full,shuffled y,48,0.496,0.114,0.475,0.113,0.567,0.101,0.36,0.142,0.373,0.131,0.36,0.159
+person,Logistic Regression,LogisticRegression manual full inactivity reduced,manual full,inactivity reduced,41,0.924,0.074,0.927,0.076,0.954,0.045,0.91,0.092,0.877,0.104,0.95,0.1
+person,Logistic Regression,LogisticRegression automatic all candidates baseline,automatic all candidates,inactivity baseline,20,0.905,0.063,0.902,0.068,0.962,0.04,0.881,0.081,0.877,0.104,0.9,0.122
+person,Logistic Regression,LogisticRegression automatic all candidates shuffled y,automatic all candidates,shuffled y,20,0.555,0.169,0.553,0.173,0.581,0.114,0.497,0.187,0.467,0.175,0.54,0.208
+person,Logistic Regression,LogisticRegression automatic all candidates inactivity reduced,automatic all candidates,inactivity reduced,15,0.924,0.074,0.927,0.076,0.961,0.041,0.91,0.092,0.877,0.104,0.95,0.1
+person,Logistic Regression,LogisticRegression automatic positive permutation baseline,automatic positive permutation,inactivity baseline,11,0.905,0.063,0.911,0.067,0.971,0.058,0.891,0.081,0.843,0.084,0.95,0.1
+person,Logistic Regression,LogisticRegression automatic positive permutation shuffled y,automatic positive permutation,shuffled y,11,0.573,0.172,0.571,0.183,0.627,0.162,0.513,0.214,0.463,0.178,0.58,0.266
+person,Logistic Regression,LogisticRegression automatic positive permutation inactivity reduced,automatic positive permutation,inactivity reduced,10,0.924,0.074,0.927,0.076,0.971,0.044,0.91,0.092,0.877,0.104,0.95,0.1
+person,Logistic Regression,LogisticRegression automatic rfecv selected baseline,automatic rfecv selected,inactivity baseline,4,0.905,0.086,0.908,0.085,0.933,0.069,0.898,0.097,0.86,0.121,0.95,0.1
+person,Logistic Regression,LogisticRegression automatic rfecv selected shuffled y,automatic rfecv selected,shuffled y,4,0.575,0.037,0.562,0.058,0.485,0.124,0.475,0.117,0.467,0.092,0.5,0.17
+person,Logistic Regression,LogisticRegression automatic rfecv selected inactivity reduced,automatic rfecv selected,inactivity reduced,4,0.905,0.086,0.908,0.085,0.933,0.069,0.898,0.097,0.86,0.121,0.95,0.1
+person,Decision Tree,DecisionTreeClassifier manual base baseline,manual base,inactivity baseline,7,0.831,0.138,0.823,0.133,0.841,0.163,0.803,0.148,0.84,0.196,0.78,0.129
+person,Decision Tree,DecisionTreeClassifier manual base shuffled y,manual base,shuffled y,7,0.502,0.116,0.501,0.114,0.544,0.11,0.413,0.14,0.497,0.278,0.46,0.208
+person,Decision Tree,DecisionTreeClassifier manual base inactivity reduced,manual base,inactivity reduced,6,0.758,0.125,0.747,0.13,0.77,0.127,0.701,0.154,0.723,0.149,0.69,0.174
+person,Decision Tree,DecisionTreeClassifier manual activity rhythm baseline,manual activity rhythm,inactivity baseline,3,0.516,0.1,0.517,0.109,0.445,0.043,0.43,0.144,0.419,0.075,0.51,0.287
+person,Decision Tree,DecisionTreeClassifier manual activity rhythm shuffled y,manual activity rhythm,shuffled y,3,0.52,0.099,0.48,0.096,0.416,0.094,0.283,0.178,0.323,0.234,0.26,0.146
+person,Decision Tree,DecisionTreeClassifier manual activity rhythm inactivity reduced,manual activity rhythm,inactivity reduced,3,0.516,0.1,0.517,0.109,0.445,0.043,0.43,0.144,0.419,0.075,0.51,0.287
+person,Decision Tree,DecisionTreeClassifier manual hourly activity baseline,manual hourly activity,inactivity baseline,24,0.756,0.118,0.754,0.104,0.769,0.112,0.728,0.11,0.713,0.168,0.77,0.129
+person,Decision Tree,DecisionTreeClassifier manual hourly activity shuffled y,manual hourly activity,shuffled y,24,0.589,0.137,0.574,0.118,0.512,0.134,0.483,0.148,0.595,0.267,0.49,0.203
+person,Decision Tree,DecisionTreeClassifier manual hourly activity inactivity reduced,manual hourly activity,inactivity reduced,24,0.756,0.118,0.754,0.104,0.769,0.112,0.728,0.11,0.713,0.168,0.77,0.129
+person,Decision Tree,DecisionTreeClassifier manual six hour bins baseline,manual six hour bins,inactivity baseline,8,0.687,0.133,0.685,0.131,0.671,0.13,0.639,0.121,0.66,0.211,0.68,0.194
+person,Decision Tree,DecisionTreeClassifier manual six hour bins shuffled y,manual six hour bins,shuffled y,8,0.482,0.121,0.462,0.122,0.398,0.062,0.296,0.276,0.239,0.212,0.41,0.415
+person,Decision Tree,DecisionTreeClassifier manual six hour bins inactivity reduced,manual six hour bins,inactivity reduced,4,0.669,0.144,0.692,0.127,0.742,0.096,0.662,0.102,0.649,0.22,0.78,0.204
+person,Decision Tree,DecisionTreeClassifier manual full baseline,manual full,inactivity baseline,48,0.736,0.148,0.726,0.139,0.663,0.173,0.69,0.15,0.71,0.201,0.68,0.112
+person,Decision Tree,DecisionTreeClassifier manual full shuffled y,manual full,shuffled y,48,0.498,0.153,0.47,0.153,0.418,0.089,0.351,0.192,0.373,0.18,0.35,0.226
+person,Decision Tree,DecisionTreeClassifier manual full inactivity reduced,manual full,inactivity reduced,41,0.682,0.108,0.659,0.09,0.59,0.12,0.602,0.096,0.667,0.193,0.58,0.117
+person,Decision Tree,DecisionTreeClassifier automatic all candidates baseline,automatic all candidates,inactivity baseline,20,0.795,0.11,0.782,0.096,0.729,0.183,0.756,0.105,0.8,0.179,0.73,0.068
+person,Decision Tree,DecisionTreeClassifier automatic all candidates shuffled y,automatic all candidates,shuffled y,20,0.444,0.061,0.417,0.085,0.431,0.091,0.268,0.198,0.257,0.164,0.3,0.266
+person,Decision Tree,DecisionTreeClassifier automatic all candidates inactivity reduced,automatic all candidates,inactivity reduced,15,0.776,0.126,0.771,0.132,0.773,0.126,0.734,0.161,0.716,0.148,0.77,0.204
+person,Decision Tree,DecisionTreeClassifier automatic positive permutation baseline,automatic positive permutation,inactivity baseline,5,0.795,0.11,0.782,0.096,0.775,0.161,0.756,0.105,0.8,0.179,0.73,0.068
+person,Decision Tree,DecisionTreeClassifier automatic positive permutation shuffled y,automatic positive permutation,shuffled y,5,0.482,0.036,0.422,0.034,0.409,0.049,0.157,0.129,0.2,0.163,0.13,0.108
+person,Decision Tree,DecisionTreeClassifier automatic positive permutation inactivity reduced,automatic positive permutation,inactivity reduced,3,0.776,0.126,0.792,0.124,0.745,0.148,0.765,0.14,0.697,0.159,0.87,0.166
+person,Decision Tree,DecisionTreeClassifier automatic rfecv selected baseline,automatic rfecv selected,inactivity baseline,2,0.889,0.068,0.873,0.07,0.871,0.088,0.853,0.084,0.96,0.08,0.78,0.129
+person,Decision Tree,DecisionTreeClassifier automatic rfecv selected shuffled y,automatic rfecv selected,shuffled y,2,0.482,0.036,0.441,0.031,0.457,0.094,0.239,0.141,0.263,0.14,0.23,0.16
+person,Decision Tree,DecisionTreeClassifier automatic rfecv selected inactivity reduced,automatic rfecv selected,inactivity reduced,1,0.796,0.067,0.82,0.061,0.775,0.075,0.787,0.056,0.733,0.154,0.92,0.16

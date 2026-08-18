@@ -1,0 +1,2 @@
+permutation_vs_rfecv,permutation_vs_inactivity,rfecv_vs_inactivity,permutation_rfecv_overlap_count,permutation_inactivity_overlap_count,rfecv_inactivity_overlap_count,all_overlap_count,permutation_rfecv_overlap_features,permutation_inactivity_overlap_features,rfecv_inactivity_overlap_features,all_overlap_features,n_importance_features,n_rfecv_features,n_zero_dominated_features
+0.3,0.125,0.06666666666666667,3,1,1,1,"['daily_mean_activity_variance', 'day_night_ratio', 'inactive_evening']",['inactive_evening'],['inactive_evening'],['inactive_evening'],3,10,6

@@ -1,0 +1,55 @@
+sample type,classifier,feature,selected,ranking
+daily,Random Forest,mean,True,1
+daily,Random Forest,sd,True,1
+daily,Random Forest,inactive ratio,True,1
+daily,Random Forest,longest inactivity,True,1
+daily,Random Forest,12 hour day activity,True,1
+daily,Random Forest,12 hour night activity,True,1
+daily,Random Forest,day night ratio,True,1
+daily,Random Forest,mean absolute change activity,True,1
+daily,Random Forest,RA,True,1
+daily,Random Forest,inactive morning,True,1
+daily,Random Forest,activity evening,True,1
+daily,Random Forest,activity afternoon,True,1
+daily,Random Forest,inactive evening,True,1
+daily,Random Forest,inactive night,False,2
+daily,Random Forest,IV,False,3
+daily,Random Forest,activity morning,False,4
+daily,Random Forest,inactive afternoon,False,5
+daily,Random Forest,activity night,False,6
+daily,Logistic Regression,sd,True,1
+daily,Logistic Regression,inactive ratio,True,1
+daily,Logistic Regression,longest inactivity,True,1
+daily,Logistic Regression,12 hour day activity,True,1
+daily,Logistic Regression,day night ratio,True,1
+daily,Logistic Regression,12 hour night activity,True,1
+daily,Logistic Regression,mean absolute change activity,True,1
+daily,Logistic Regression,IV,True,1
+daily,Logistic Regression,inactive morning,True,1
+daily,Logistic Regression,RA,True,1
+daily,Logistic Regression,activity night,True,1
+daily,Logistic Regression,activity afternoon,True,1
+daily,Logistic Regression,inactive night,True,1
+daily,Logistic Regression,inactive afternoon,True,1
+daily,Logistic Regression,inactive evening,True,1
+daily,Logistic Regression,activity morning,False,2
+daily,Logistic Regression,activity evening,False,3
+daily,Logistic Regression,mean,False,4
+daily,Decision Tree,inactive ratio,True,1
+daily,Decision Tree,12 hour day activity,False,2
+daily,Decision Tree,sd,False,3
+daily,Decision Tree,inactive evening,False,4
+daily,Decision Tree,inactive afternoon,False,5
+daily,Decision Tree,inactive morning,False,6
+daily,Decision Tree,inactive night,False,7
+daily,Decision Tree,activity evening,False,8
+daily,Decision Tree,activity afternoon,False,9
+daily,Decision Tree,activity morning,False,10
+daily,Decision Tree,activity night,False,11
+daily,Decision Tree,RA,False,12
+daily,Decision Tree,IV,False,13
+daily,Decision Tree,mean absolute change activity,False,14
+daily,Decision Tree,day night ratio,False,15
+daily,Decision Tree,12 hour night activity,False,16
+daily,Decision Tree,longest inactivity,False,17
+daily,Decision Tree,mean,False,18

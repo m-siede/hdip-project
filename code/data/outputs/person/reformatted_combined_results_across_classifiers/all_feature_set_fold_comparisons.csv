@@ -1,0 +1,109 @@
+sample type,classifier,result 1,result 2,feature set 1,feature set 2,scoring metric,mean 1,mean 2,mean difference,std difference,result 1 better folds,result 2 better folds,tied folds
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier activity rhythm,base,activity rhythm,balanced accuracy,0.84,0.659,0.181,0.107,5,0,0
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier hourly activity,base,hourly activity,balanced accuracy,0.84,0.795,0.045,0.102,3,2,0
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier six hour bins,base,six hour bins,balanced accuracy,0.84,0.718,0.122,0.117,4,1,0
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier full,base,full,balanced accuracy,0.84,0.795,0.045,0.102,3,2,0
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier all candidates,base,all candidates,balanced accuracy,0.84,0.814,0.026,0.083,3,1,1
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier positive permutation,base,positive permutation,balanced accuracy,0.84,0.871,-0.031,0.062,1,3,1
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier rfecv selected,base,rfecv selected,balanced accuracy,0.84,0.882,-0.042,0.053,0,2,3
+person,Random Forest,RandomForestClassifier base,RandomForestClassifier select from model,base,select from model,balanced accuracy,0.84,0.848,-0.008,0.067,1,1,3
+person,Random Forest,RandomForestClassifier activity rhythm,RandomForestClassifier hourly activity,activity rhythm,hourly activity,balanced accuracy,0.659,0.795,-0.136,0.101,1,4,0
+person,Random Forest,RandomForestClassifier activity rhythm,RandomForestClassifier six hour bins,activity rhythm,six hour bins,balanced accuracy,0.659,0.718,-0.059,0.089,1,4,0
+person,Random Forest,RandomForestClassifier activity rhythm,RandomForestClassifier full,activity rhythm,full,balanced accuracy,0.659,0.795,-0.136,0.101,1,4,0
+person,Random Forest,RandomForestClassifier activity rhythm,RandomForestClassifier all candidates,activity rhythm,all candidates,balanced accuracy,0.659,0.814,-0.155,0.132,1,4,0
+person,Random Forest,RandomForestClassifier activity rhythm,RandomForestClassifier positive permutation,activity rhythm,positive permutation,balanced accuracy,0.659,0.871,-0.212,0.094,0,5,0
+person,Random Forest,RandomForestClassifier activity rhythm,RandomForestClassifier rfecv selected,activity rhythm,rfecv selected,balanced accuracy,0.659,0.882,-0.223,0.094,0,5,0
+person,Random Forest,RandomForestClassifier activity rhythm,RandomForestClassifier select from model,activity rhythm,select from model,balanced accuracy,0.659,0.848,-0.189,0.107,0,5,0
+person,Random Forest,RandomForestClassifier hourly activity,RandomForestClassifier six hour bins,hourly activity,six hour bins,balanced accuracy,0.795,0.718,0.077,0.051,4,0,1
+person,Random Forest,RandomForestClassifier hourly activity,RandomForestClassifier full,hourly activity,full,balanced accuracy,0.795,0.795,0.0,0.0,0,0,5
+person,Random Forest,RandomForestClassifier hourly activity,RandomForestClassifier all candidates,hourly activity,all candidates,balanced accuracy,0.795,0.814,-0.019,0.076,1,2,2
+person,Random Forest,RandomForestClassifier hourly activity,RandomForestClassifier positive permutation,hourly activity,positive permutation,balanced accuracy,0.795,0.871,-0.076,0.093,1,4,0
+person,Random Forest,RandomForestClassifier hourly activity,RandomForestClassifier rfecv selected,hourly activity,rfecv selected,balanced accuracy,0.795,0.882,-0.087,0.05,0,4,1
+person,Random Forest,RandomForestClassifier hourly activity,RandomForestClassifier select from model,hourly activity,select from model,balanced accuracy,0.795,0.848,-0.054,0.091,1,3,1
+person,Random Forest,RandomForestClassifier six hour bins,RandomForestClassifier full,six hour bins,full,balanced accuracy,0.718,0.795,-0.077,0.051,0,4,1
+person,Random Forest,RandomForestClassifier six hour bins,RandomForestClassifier all candidates,six hour bins,all candidates,balanced accuracy,0.718,0.814,-0.096,0.089,0,5,0
+person,Random Forest,RandomForestClassifier six hour bins,RandomForestClassifier positive permutation,six hour bins,positive permutation,balanced accuracy,0.718,0.871,-0.153,0.123,1,4,0
+person,Random Forest,RandomForestClassifier six hour bins,RandomForestClassifier rfecv selected,six hour bins,rfecv selected,balanced accuracy,0.718,0.882,-0.164,0.073,0,5,0
+person,Random Forest,RandomForestClassifier six hour bins,RandomForestClassifier select from model,six hour bins,select from model,balanced accuracy,0.718,0.848,-0.13,0.092,0,5,0
+person,Random Forest,RandomForestClassifier full,RandomForestClassifier all candidates,full,all candidates,balanced accuracy,0.795,0.814,-0.019,0.076,1,2,2
+person,Random Forest,RandomForestClassifier full,RandomForestClassifier positive permutation,full,positive permutation,balanced accuracy,0.795,0.871,-0.076,0.093,1,4,0
+person,Random Forest,RandomForestClassifier full,RandomForestClassifier rfecv selected,full,rfecv selected,balanced accuracy,0.795,0.882,-0.087,0.05,0,4,1
+person,Random Forest,RandomForestClassifier full,RandomForestClassifier select from model,full,select from model,balanced accuracy,0.795,0.848,-0.054,0.091,1,3,1
+person,Random Forest,RandomForestClassifier all candidates,RandomForestClassifier positive permutation,all candidates,positive permutation,balanced accuracy,0.814,0.871,-0.057,0.108,1,2,2
+person,Random Forest,RandomForestClassifier all candidates,RandomForestClassifier rfecv selected,all candidates,rfecv selected,balanced accuracy,0.814,0.882,-0.068,0.063,0,3,2
+person,Random Forest,RandomForestClassifier all candidates,RandomForestClassifier select from model,all candidates,select from model,balanced accuracy,0.814,0.848,-0.034,0.043,0,2,3
+person,Random Forest,RandomForestClassifier positive permutation,RandomForestClassifier rfecv selected,positive permutation,rfecv selected,balanced accuracy,0.871,0.882,-0.011,0.065,1,2,2
+person,Random Forest,RandomForestClassifier positive permutation,RandomForestClassifier select from model,positive permutation,select from model,balanced accuracy,0.871,0.848,0.022,0.097,2,2,1
+person,Random Forest,RandomForestClassifier rfecv selected,RandomForestClassifier select from model,rfecv selected,select from model,balanced accuracy,0.882,0.848,0.033,0.067,1,0,4
+person,Logistic Regression,LogisticRegression base,LogisticRegression activity rhythm,base,activity rhythm,balanced accuracy,0.905,0.806,0.099,0.051,4,0,1
+person,Logistic Regression,LogisticRegression base,LogisticRegression hourly activity,base,hourly activity,balanced accuracy,0.905,0.891,0.014,0.06,2,1,2
+person,Logistic Regression,LogisticRegression base,LogisticRegression six hour bins,base,six hour bins,balanced accuracy,0.905,0.806,0.099,0.07,4,0,1
+person,Logistic Regression,LogisticRegression base,LogisticRegression full,base,full,balanced accuracy,0.905,0.927,-0.022,0.063,1,2,2
+person,Logistic Regression,LogisticRegression base,LogisticRegression all candidates,base,all candidates,balanced accuracy,0.905,0.902,0.003,0.087,2,2,1
+person,Logistic Regression,LogisticRegression base,LogisticRegression positive permutation,base,positive permutation,balanced accuracy,0.905,0.911,-0.006,0.055,1,1,3
+person,Logistic Regression,LogisticRegression base,LogisticRegression rfecv selected,base,rfecv selected,balanced accuracy,0.905,0.908,-0.003,0.058,1,1,3
+person,Logistic Regression,LogisticRegression base,LogisticRegression select from model,base,select from model,balanced accuracy,0.905,0.942,-0.037,0.045,0,2,3
+person,Logistic Regression,LogisticRegression activity rhythm,LogisticRegression hourly activity,activity rhythm,hourly activity,balanced accuracy,0.806,0.891,-0.084,0.076,0,4,1
+person,Logistic Regression,LogisticRegression activity rhythm,LogisticRegression six hour bins,activity rhythm,six hour bins,balanced accuracy,0.806,0.806,0.0,0.071,2,2,1
+person,Logistic Regression,LogisticRegression activity rhythm,LogisticRegression full,activity rhythm,full,balanced accuracy,0.806,0.927,-0.121,0.037,0,5,0
+person,Logistic Regression,LogisticRegression activity rhythm,LogisticRegression all candidates,activity rhythm,all candidates,balanced accuracy,0.806,0.902,-0.096,0.061,0,4,1
+person,Logistic Regression,LogisticRegression activity rhythm,LogisticRegression positive permutation,activity rhythm,positive permutation,balanced accuracy,0.806,0.911,-0.104,0.02,0,5,0
+person,Logistic Regression,LogisticRegression activity rhythm,LogisticRegression rfecv selected,activity rhythm,rfecv selected,balanced accuracy,0.806,0.908,-0.102,0.045,0,5,0
+person,Logistic Regression,LogisticRegression activity rhythm,LogisticRegression select from model,activity rhythm,select from model,balanced accuracy,0.806,0.942,-0.135,0.028,0,5,0
+person,Logistic Regression,LogisticRegression hourly activity,LogisticRegression six hour bins,hourly activity,six hour bins,balanced accuracy,0.891,0.806,0.085,0.097,4,1,0
+person,Logistic Regression,LogisticRegression hourly activity,LogisticRegression full,hourly activity,full,balanced accuracy,0.891,0.927,-0.037,0.087,1,2,2
+person,Logistic Regression,LogisticRegression hourly activity,LogisticRegression all candidates,hourly activity,all candidates,balanced accuracy,0.891,0.902,-0.012,0.109,2,2,1
+person,Logistic Regression,LogisticRegression hourly activity,LogisticRegression positive permutation,hourly activity,positive permutation,balanced accuracy,0.891,0.911,-0.02,0.066,1,2,2
+person,Logistic Regression,LogisticRegression hourly activity,LogisticRegression rfecv selected,hourly activity,rfecv selected,balanced accuracy,0.891,0.908,-0.018,0.064,1,2,2
+person,Logistic Regression,LogisticRegression hourly activity,LogisticRegression select from model,hourly activity,select from model,balanced accuracy,0.891,0.942,-0.051,0.086,1,3,1
+person,Logistic Regression,LogisticRegression six hour bins,LogisticRegression full,six hour bins,full,balanced accuracy,0.806,0.927,-0.121,0.041,0,5,0
+person,Logistic Regression,LogisticRegression six hour bins,LogisticRegression all candidates,six hour bins,all candidates,balanced accuracy,0.806,0.902,-0.096,0.081,1,4,0
+person,Logistic Regression,LogisticRegression six hour bins,LogisticRegression positive permutation,six hour bins,positive permutation,balanced accuracy,0.806,0.911,-0.105,0.063,0,4,1
+person,Logistic Regression,LogisticRegression six hour bins,LogisticRegression rfecv selected,six hour bins,rfecv selected,balanced accuracy,0.806,0.908,-0.102,0.105,1,4,0
+person,Logistic Regression,LogisticRegression six hour bins,LogisticRegression select from model,six hour bins,select from model,balanced accuracy,0.806,0.942,-0.135,0.056,0,5,0
+person,Logistic Regression,LogisticRegression full,LogisticRegression all candidates,full,all candidates,balanced accuracy,0.927,0.902,0.025,0.05,1,0,4
+person,Logistic Regression,LogisticRegression full,LogisticRegression positive permutation,full,positive permutation,balanced accuracy,0.927,0.911,0.017,0.033,1,0,4
+person,Logistic Regression,LogisticRegression full,LogisticRegression rfecv selected,full,rfecv selected,balanced accuracy,0.927,0.908,0.019,0.079,1,1,3
+person,Logistic Regression,LogisticRegression full,LogisticRegression select from model,full,select from model,balanced accuracy,0.927,0.942,-0.014,0.029,0,1,4
+person,Logistic Regression,LogisticRegression all candidates,LogisticRegression positive permutation,all candidates,positive permutation,balanced accuracy,0.902,0.911,-0.008,0.067,1,1,3
+person,Logistic Regression,LogisticRegression all candidates,LogisticRegression rfecv selected,all candidates,rfecv selected,balanced accuracy,0.902,0.908,-0.006,0.098,1,2,2
+person,Logistic Regression,LogisticRegression all candidates,LogisticRegression select from model,all candidates,select from model,balanced accuracy,0.902,0.942,-0.039,0.051,0,2,3
+person,Logistic Regression,LogisticRegression positive permutation,LogisticRegression rfecv selected,positive permutation,rfecv selected,balanced accuracy,0.911,0.908,0.002,0.049,1,1,3
+person,Logistic Regression,LogisticRegression positive permutation,LogisticRegression select from model,positive permutation,select from model,balanced accuracy,0.911,0.942,-0.031,0.038,0,2,3
+person,Logistic Regression,LogisticRegression rfecv selected,LogisticRegression select from model,rfecv selected,select from model,balanced accuracy,0.908,0.942,-0.033,0.067,0,1,4
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier activity rhythm,base,activity rhythm,balanced accuracy,0.823,0.517,0.306,0.096,5,0,0
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier hourly activity,base,hourly activity,balanced accuracy,0.823,0.754,0.069,0.163,3,1,1
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier six hour bins,base,six hour bins,balanced accuracy,0.823,0.685,0.138,0.222,3,2,0
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier full,base,full,balanced accuracy,0.823,0.726,0.098,0.068,4,0,1
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier all candidates,base,all candidates,balanced accuracy,0.823,0.782,0.042,0.053,2,0,3
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier positive permutation,base,positive permutation,balanced accuracy,0.823,0.782,0.042,0.053,2,0,3
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier rfecv selected,base,rfecv selected,balanced accuracy,0.823,0.873,-0.05,0.127,2,3,0
+person,Decision Tree,DecisionTreeClassifier base,DecisionTreeClassifier select from model,base,select from model,balanced accuracy,0.823,0.782,0.042,0.053,2,0,3
+person,Decision Tree,DecisionTreeClassifier activity rhythm,DecisionTreeClassifier hourly activity,activity rhythm,hourly activity,balanced accuracy,0.517,0.754,-0.237,0.098,0,5,0
+person,Decision Tree,DecisionTreeClassifier activity rhythm,DecisionTreeClassifier six hour bins,activity rhythm,six hour bins,balanced accuracy,0.517,0.685,-0.168,0.142,0,5,0
+person,Decision Tree,DecisionTreeClassifier activity rhythm,DecisionTreeClassifier full,activity rhythm,full,balanced accuracy,0.517,0.726,-0.209,0.102,0,5,0
+person,Decision Tree,DecisionTreeClassifier activity rhythm,DecisionTreeClassifier all candidates,activity rhythm,all candidates,balanced accuracy,0.517,0.782,-0.265,0.088,0,5,0
+person,Decision Tree,DecisionTreeClassifier activity rhythm,DecisionTreeClassifier positive permutation,activity rhythm,positive permutation,balanced accuracy,0.517,0.782,-0.265,0.088,0,5,0
+person,Decision Tree,DecisionTreeClassifier activity rhythm,DecisionTreeClassifier rfecv selected,activity rhythm,rfecv selected,balanced accuracy,0.517,0.873,-0.356,0.108,0,5,0
+person,Decision Tree,DecisionTreeClassifier activity rhythm,DecisionTreeClassifier select from model,activity rhythm,select from model,balanced accuracy,0.517,0.782,-0.265,0.088,0,5,0
+person,Decision Tree,DecisionTreeClassifier hourly activity,DecisionTreeClassifier six hour bins,hourly activity,six hour bins,balanced accuracy,0.754,0.685,0.069,0.136,4,1,0
+person,Decision Tree,DecisionTreeClassifier hourly activity,DecisionTreeClassifier full,hourly activity,full,balanced accuracy,0.754,0.726,0.028,0.138,3,2,0
+person,Decision Tree,DecisionTreeClassifier hourly activity,DecisionTreeClassifier all candidates,hourly activity,all candidates,balanced accuracy,0.754,0.782,-0.028,0.128,1,3,1
+person,Decision Tree,DecisionTreeClassifier hourly activity,DecisionTreeClassifier positive permutation,hourly activity,positive permutation,balanced accuracy,0.754,0.782,-0.028,0.128,1,3,1
+person,Decision Tree,DecisionTreeClassifier hourly activity,DecisionTreeClassifier rfecv selected,hourly activity,rfecv selected,balanced accuracy,0.754,0.873,-0.119,0.097,1,4,0
+person,Decision Tree,DecisionTreeClassifier hourly activity,DecisionTreeClassifier select from model,hourly activity,select from model,balanced accuracy,0.754,0.782,-0.028,0.128,1,3,1
+person,Decision Tree,DecisionTreeClassifier six hour bins,DecisionTreeClassifier full,six hour bins,full,balanced accuracy,0.685,0.726,-0.04,0.227,2,3,0
+person,Decision Tree,DecisionTreeClassifier six hour bins,DecisionTreeClassifier all candidates,six hour bins,all candidates,balanced accuracy,0.685,0.782,-0.096,0.195,2,3,0
+person,Decision Tree,DecisionTreeClassifier six hour bins,DecisionTreeClassifier positive permutation,six hour bins,positive permutation,balanced accuracy,0.685,0.782,-0.096,0.195,2,3,0
+person,Decision Tree,DecisionTreeClassifier six hour bins,DecisionTreeClassifier rfecv selected,six hour bins,rfecv selected,balanced accuracy,0.685,0.873,-0.188,0.157,1,4,0
+person,Decision Tree,DecisionTreeClassifier six hour bins,DecisionTreeClassifier select from model,six hour bins,select from model,balanced accuracy,0.685,0.782,-0.096,0.195,2,3,0
+person,Decision Tree,DecisionTreeClassifier full,DecisionTreeClassifier all candidates,full,all candidates,balanced accuracy,0.726,0.782,-0.056,0.081,0,2,3
+person,Decision Tree,DecisionTreeClassifier full,DecisionTreeClassifier positive permutation,full,positive permutation,balanced accuracy,0.726,0.782,-0.056,0.081,0,2,3
+person,Decision Tree,DecisionTreeClassifier full,DecisionTreeClassifier rfecv selected,full,rfecv selected,balanced accuracy,0.726,0.873,-0.148,0.14,0,3,2
+person,Decision Tree,DecisionTreeClassifier full,DecisionTreeClassifier select from model,full,select from model,balanced accuracy,0.726,0.782,-0.056,0.081,0,2,3
+person,Decision Tree,DecisionTreeClassifier all candidates,DecisionTreeClassifier positive permutation,all candidates,positive permutation,balanced accuracy,0.782,0.782,0.0,0.0,0,0,5
+person,Decision Tree,DecisionTreeClassifier all candidates,DecisionTreeClassifier rfecv selected,all candidates,rfecv selected,balanced accuracy,0.782,0.873,-0.092,0.076,0,3,2
+person,Decision Tree,DecisionTreeClassifier all candidates,DecisionTreeClassifier select from model,all candidates,select from model,balanced accuracy,0.782,0.782,0.0,0.0,0,0,5
+person,Decision Tree,DecisionTreeClassifier positive permutation,DecisionTreeClassifier rfecv selected,positive permutation,rfecv selected,balanced accuracy,0.782,0.873,-0.092,0.076,0,3,2
+person,Decision Tree,DecisionTreeClassifier positive permutation,DecisionTreeClassifier select from model,positive permutation,select from model,balanced accuracy,0.782,0.782,0.0,0.0,0,0,5
+person,Decision Tree,DecisionTreeClassifier rfecv selected,DecisionTreeClassifier select from model,rfecv selected,select from model,balanced accuracy,0.873,0.782,0.092,0.076,3,0,2

@@ -1,0 +1,16 @@
+sample_type,classifier,name,feature_set,feature_set_type,n_features,accuracy_mean,accuracy_std,balanced_accuracy_mean,balanced_accuracy_std,average_precision_mean,average_precision_std,f1_mean,f1_std,precision_mean,precision_std,recall_mean,recall_std,rank
+person,Random Forest,RandomForestClassifier_base,base,manual,7,0.849,0.129,0.84,0.139,0.915,0.086,0.808,0.173,0.843,0.135,0.78,0.204,1
+person,Random Forest,RandomForestClassifier_hourly_activity,hourly_activity,manual,24,0.796,0.067,0.795,0.064,0.813,0.101,0.76,0.065,0.767,0.122,0.78,0.129,2
+person,Random Forest,RandomForestClassifier_full,full,manual,48,0.796,0.067,0.795,0.064,0.931,0.057,0.76,0.065,0.767,0.122,0.78,0.129,2
+person,Random Forest,RandomForestClassifier_six_hour_bins,six_hour_bins,manual,8,0.724,0.077,0.718,0.087,0.73,0.085,0.647,0.098,0.707,0.15,0.65,0.21,4
+person,Random Forest,RandomForestClassifier_activity_rhythm,activity_rhythm,manual,3,0.684,0.098,0.659,0.095,0.788,0.052,0.585,0.135,0.683,0.186,0.58,0.196,5
+person,Logistic Regression,LogisticRegression_full,full,manual,48,0.924,0.074,0.927,0.076,0.962,0.04,0.91,0.092,0.877,0.104,0.95,0.1,1
+person,Logistic Regression,LogisticRegression_base,base,manual,7,0.905,0.086,0.905,0.088,0.977,0.033,0.892,0.102,0.877,0.104,0.91,0.111,2
+person,Logistic Regression,LogisticRegression_hourly_activity,hourly_activity,manual,24,0.889,0.068,0.891,0.067,0.933,0.041,0.876,0.069,0.863,0.116,0.91,0.111,3
+person,Logistic Regression,LogisticRegression_activity_rhythm,activity_rhythm,manual,3,0.813,0.066,0.806,0.074,0.805,0.099,0.766,0.1,0.787,0.122,0.77,0.16,4
+person,Logistic Regression,LogisticRegression_six_hour_bins,six_hour_bins,manual,8,0.795,0.094,0.806,0.102,0.875,0.069,0.765,0.124,0.708,0.096,0.86,0.196,5
+person,Decision Tree,DecisionTreeClassifier_base,base,manual,7,0.831,0.138,0.823,0.133,0.841,0.163,0.803,0.148,0.84,0.196,0.78,0.129,1
+person,Decision Tree,DecisionTreeClassifier_hourly_activity,hourly_activity,manual,24,0.756,0.118,0.754,0.104,0.769,0.112,0.728,0.11,0.713,0.168,0.77,0.129,2
+person,Decision Tree,DecisionTreeClassifier_full,full,manual,48,0.736,0.148,0.726,0.139,0.663,0.173,0.69,0.15,0.71,0.201,0.68,0.112,3
+person,Decision Tree,DecisionTreeClassifier_six_hour_bins,six_hour_bins,manual,8,0.687,0.133,0.685,0.131,0.671,0.13,0.639,0.121,0.66,0.211,0.68,0.194,4
+person,Decision Tree,DecisionTreeClassifier_activity_rhythm,activity_rhythm,manual,3,0.516,0.1,0.517,0.109,0.445,0.043,0.43,0.144,0.419,0.075,0.51,0.287,5

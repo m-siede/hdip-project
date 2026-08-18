@@ -1,0 +1,61 @@
+sample type,classifier,feature,cluster
+person,Random Forest,longest inactivity,1
+person,Random Forest,inactive ratio,1
+person,Random Forest,inactive morning,1
+person,Random Forest,inactive night,1
+person,Random Forest,inactive evening,1
+person,Random Forest,inactive afternoon,1
+person,Random Forest,sd,2
+person,Random Forest,mean,2
+person,Random Forest,activity evening,2
+person,Random Forest,activity afternoon,2
+person,Random Forest,activity morning,2
+person,Random Forest,activity night,2
+person,Random Forest,12 hour day activity,2
+person,Random Forest,12 hour night activity,2
+person,Random Forest,mean absolute change activity,2
+person,Random Forest,RA,2
+person,Random Forest,daily mean activity variance,3
+person,Random Forest,IS,3
+person,Random Forest,day night ratio,3
+person,Random Forest,IV,4
+person,Logistic Regression,longest inactivity,1
+person,Logistic Regression,inactive ratio,1
+person,Logistic Regression,inactive morning,1
+person,Logistic Regression,inactive night,1
+person,Logistic Regression,inactive evening,1
+person,Logistic Regression,inactive afternoon,1
+person,Logistic Regression,sd,2
+person,Logistic Regression,mean,2
+person,Logistic Regression,activity evening,2
+person,Logistic Regression,activity afternoon,2
+person,Logistic Regression,activity morning,2
+person,Logistic Regression,activity night,2
+person,Logistic Regression,12 hour day activity,2
+person,Logistic Regression,12 hour night activity,2
+person,Logistic Regression,mean absolute change activity,2
+person,Logistic Regression,RA,2
+person,Logistic Regression,daily mean activity variance,3
+person,Logistic Regression,IS,3
+person,Logistic Regression,day night ratio,3
+person,Logistic Regression,IV,4
+person,Decision Tree,longest inactivity,1
+person,Decision Tree,inactive ratio,1
+person,Decision Tree,inactive morning,1
+person,Decision Tree,inactive night,1
+person,Decision Tree,inactive evening,1
+person,Decision Tree,inactive afternoon,1
+person,Decision Tree,sd,2
+person,Decision Tree,mean,2
+person,Decision Tree,activity evening,2
+person,Decision Tree,activity afternoon,2
+person,Decision Tree,activity morning,2
+person,Decision Tree,activity night,2
+person,Decision Tree,12 hour day activity,2
+person,Decision Tree,12 hour night activity,2
+person,Decision Tree,mean absolute change activity,2
+person,Decision Tree,RA,2
+person,Decision Tree,daily mean activity variance,3
+person,Decision Tree,IS,3
+person,Decision Tree,day night ratio,3
+person,Decision Tree,IV,4

@@ -1,0 +1,20 @@
+sample_type,classifier,0
+person,Random Forest,daily_mean_activity_variance
+person,Random Forest,day_night_ratio
+person,Random Forest,inactive_evening
+person,Logistic Regression,IS
+person,Logistic Regression,daily_mean_activity_variance
+person,Logistic Regression,sd
+person,Logistic Regression,activity_afternoon
+person,Logistic Regression,RA
+person,Logistic Regression,mean
+person,Logistic Regression,activity_evening
+person,Logistic Regression,12_hour_night_activity
+person,Logistic Regression,inactive_afternoon
+person,Logistic Regression,longest_inactivity
+person,Logistic Regression,activity_night
+person,Decision Tree,daily_mean_activity_variance
+person,Decision Tree,inactive_evening
+person,Decision Tree,sd
+person,Decision Tree,inactive_ratio
+person,Decision Tree,day_night_ratio

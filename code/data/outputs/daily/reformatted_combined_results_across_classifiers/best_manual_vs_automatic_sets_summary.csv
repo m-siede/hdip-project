@@ -1,0 +1,7 @@
+sample type,classifier,name,feature set,feature set type,n features,accuracy mean,accuracy std,balanced accuracy mean,balanced accuracy std,average precision mean,average precision std,f1 mean,f1 std,precision mean,precision std,recall mean,recall std
+daily,Random Forest,RandomForestClassifier full,full,manual,46,0.833,0.054,0.828,0.054,0.844,0.091,0.773,0.076,0.739,0.097,0.814,0.053
+daily,Random Forest,RandomForestClassifier rfecv selected,rfecv selected,automatic,13,0.832,0.049,0.824,0.053,0.833,0.114,0.768,0.077,0.741,0.088,0.797,0.066
+daily,Logistic Regression,LogisticRegression full,full,manual,46,0.826,0.068,0.831,0.067,0.807,0.064,0.773,0.087,0.721,0.102,0.842,0.089
+daily,Logistic Regression,LogisticRegression positive permutation,positive permutation,automatic,16,0.815,0.053,0.825,0.052,0.813,0.086,0.764,0.068,0.698,0.082,0.851,0.072
+daily,Decision Tree,DecisionTreeClassifier base,base,manual,6,0.735,0.04,0.736,0.042,0.569,0.053,0.665,0.066,0.604,0.069,0.764,0.144
+daily,Decision Tree,DecisionTreeClassifier rfecv selected,rfecv selected,automatic,1,0.752,0.045,0.746,0.052,0.575,0.069,0.672,0.075,0.625,0.075,0.732,0.097

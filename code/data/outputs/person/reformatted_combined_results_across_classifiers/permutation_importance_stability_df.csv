@@ -1,0 +1,61 @@
+sample type,classifier,feature,mean importance,std importance
+person,Random Forest,daily mean activity variance,0.055,0.053
+person,Random Forest,day night ratio,0.005,0.011
+person,Random Forest,inactive evening,0.001,0.038
+person,Random Forest,longest inactivity,0.0,0.0
+person,Random Forest,inactive morning,0.0,0.0
+person,Random Forest,activity night,0.0,0.0
+person,Random Forest,inactive ratio,0.0,0.0
+person,Random Forest,mean absolute change activity,0.0,0.0
+person,Random Forest,RA,0.0,0.0
+person,Random Forest,IV,0.0,0.0
+person,Random Forest,IS,0.0,0.0
+person,Random Forest,12 hour day activity,0.0,0.0
+person,Random Forest,inactive afternoon,0.0,0.0
+person,Random Forest,activity morning,0.0,0.0
+person,Random Forest,inactive night,0.0,0.0
+person,Random Forest,sd,-0.005,0.085
+person,Random Forest,activity evening,-0.009,0.019
+person,Random Forest,mean,-0.009,0.015
+person,Random Forest,12 hour night activity,-0.013,0.035
+person,Random Forest,activity afternoon,-0.017,0.037
+person,Logistic Regression,IS,0.049,0.121
+person,Logistic Regression,daily mean activity variance,0.045,0.053
+person,Logistic Regression,sd,0.031,0.039
+person,Logistic Regression,activity afternoon,0.023,0.024
+person,Logistic Regression,RA,0.018,0.035
+person,Logistic Regression,mean,0.017,0.023
+person,Logistic Regression,activity evening,0.012,0.017
+person,Logistic Regression,12 hour night activity,0.011,0.028
+person,Logistic Regression,inactive afternoon,0.011,0.037
+person,Logistic Regression,longest inactivity,0.007,0.07
+person,Logistic Regression,activity night,0.002,0.043
+person,Logistic Regression,day night ratio,-0.004,0.058
+person,Logistic Regression,IV,-0.004,0.055
+person,Logistic Regression,inactive ratio,-0.005,0.035
+person,Logistic Regression,inactive evening,-0.007,0.04
+person,Logistic Regression,inactive night,-0.007,0.034
+person,Logistic Regression,inactive morning,-0.018,0.054
+person,Logistic Regression,12 hour day activity,-0.018,0.054
+person,Logistic Regression,activity morning,-0.018,0.053
+person,Logistic Regression,mean absolute change activity,-0.022,0.058
+person,Decision Tree,daily mean activity variance,0.143,0.127
+person,Decision Tree,inactive evening,0.083,0.117
+person,Decision Tree,sd,0.02,0.057
+person,Decision Tree,inactive ratio,0.02,0.044
+person,Decision Tree,day night ratio,0.01,0.022
+person,Decision Tree,mean,0.0,0.0
+person,Decision Tree,longest inactivity,0.0,0.0
+person,Decision Tree,12 hour night activity,0.0,0.0
+person,Decision Tree,mean absolute change activity,0.0,0.0
+person,Decision Tree,IV,0.0,0.0
+person,Decision Tree,RA,0.0,0.0
+person,Decision Tree,12 hour day activity,0.0,0.0
+person,Decision Tree,IS,0.0,0.0
+person,Decision Tree,activity night,0.0,0.0
+person,Decision Tree,activity afternoon,0.0,0.0
+person,Decision Tree,activity morning,0.0,0.0
+person,Decision Tree,activity evening,0.0,0.0
+person,Decision Tree,inactive night,0.0,0.0
+person,Decision Tree,inactive morning,0.0,0.0
+person,Decision Tree,inactive afternoon,0.0,0.0

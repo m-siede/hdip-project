@@ -1,0 +1,7 @@
+sample_type,classifier,group,proportion
+daily,Random Forest,control,0.647
+daily,Random Forest,schizophrenia,0.353
+daily,Logistic Regression,control,0.647
+daily,Logistic Regression,schizophrenia,0.353
+daily,Decision Tree,control,0.647
+daily,Decision Tree,schizophrenia,0.353

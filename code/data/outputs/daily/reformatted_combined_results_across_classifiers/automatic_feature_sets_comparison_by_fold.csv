@@ -1,0 +1,19 @@
+sample type,classifier,result 1,result 2,feature set 1,feature set 2,scoring metric,mean 1,mean 2,mean difference,std difference,result 1 better folds,result 2 better folds,tied folds
+daily,Random Forest,RandomForestClassifier all candidates,RandomForestClassifier positive permutation,all candidates,positive permutation,balanced accuracy,0.813,0.823,-0.011,0.012,1,4,0
+daily,Random Forest,RandomForestClassifier all candidates,RandomForestClassifier rfecv selected,all candidates,rfecv selected,balanced accuracy,0.813,0.824,-0.011,0.01,0,3,2
+daily,Random Forest,RandomForestClassifier all candidates,RandomForestClassifier select from model,all candidates,select from model,balanced accuracy,0.813,0.815,-0.002,0.013,2,2,1
+daily,Random Forest,RandomForestClassifier positive permutation,RandomForestClassifier rfecv selected,positive permutation,rfecv selected,balanced accuracy,0.823,0.824,-0.001,0.015,3,2,0
+daily,Random Forest,RandomForestClassifier positive permutation,RandomForestClassifier select from model,positive permutation,select from model,balanced accuracy,0.823,0.815,0.009,0.008,4,1,0
+daily,Random Forest,RandomForestClassifier rfecv selected,RandomForestClassifier select from model,rfecv selected,select from model,balanced accuracy,0.824,0.815,0.009,0.013,4,0,1
+daily,Logistic Regression,LogisticRegression all candidates,LogisticRegression positive permutation,all candidates,positive permutation,balanced accuracy,0.816,0.825,-0.009,0.003,0,5,0
+daily,Logistic Regression,LogisticRegression all candidates,LogisticRegression rfecv selected,all candidates,rfecv selected,balanced accuracy,0.816,0.82,-0.004,0.0,0,5,0
+daily,Logistic Regression,LogisticRegression all candidates,LogisticRegression select from model,all candidates,select from model,balanced accuracy,0.816,0.801,0.015,0.026,4,1,0
+daily,Logistic Regression,LogisticRegression positive permutation,LogisticRegression rfecv selected,positive permutation,rfecv selected,balanced accuracy,0.825,0.82,0.005,0.003,4,0,1
+daily,Logistic Regression,LogisticRegression positive permutation,LogisticRegression select from model,positive permutation,select from model,balanced accuracy,0.825,0.801,0.024,0.028,4,1,0
+daily,Logistic Regression,LogisticRegression rfecv selected,LogisticRegression select from model,rfecv selected,select from model,balanced accuracy,0.82,0.801,0.019,0.026,4,1,0
+daily,Decision Tree,DecisionTreeClassifier all candidates,DecisionTreeClassifier positive permutation,all candidates,positive permutation,balanced accuracy,0.724,0.724,0.0,0.0,0,0,5
+daily,Decision Tree,DecisionTreeClassifier all candidates,DecisionTreeClassifier rfecv selected,all candidates,rfecv selected,balanced accuracy,0.724,0.746,-0.022,0.043,2,3,0
+daily,Decision Tree,DecisionTreeClassifier all candidates,DecisionTreeClassifier select from model,all candidates,select from model,balanced accuracy,0.724,0.72,0.004,0.008,1,0,4
+daily,Decision Tree,DecisionTreeClassifier positive permutation,DecisionTreeClassifier rfecv selected,positive permutation,rfecv selected,balanced accuracy,0.724,0.746,-0.022,0.043,2,3,0
+daily,Decision Tree,DecisionTreeClassifier positive permutation,DecisionTreeClassifier select from model,positive permutation,select from model,balanced accuracy,0.724,0.72,0.004,0.008,1,0,4
+daily,Decision Tree,DecisionTreeClassifier rfecv selected,DecisionTreeClassifier select from model,rfecv selected,select from model,balanced accuracy,0.746,0.72,0.026,0.039,3,2,0

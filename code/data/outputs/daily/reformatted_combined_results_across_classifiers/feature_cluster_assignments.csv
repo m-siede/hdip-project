@@ -1,0 +1,55 @@
+sample type,classifier,feature,cluster
+daily,Random Forest,mean,1
+daily,Random Forest,sd,1
+daily,Random Forest,inactive ratio,1
+daily,Random Forest,longest inactivity,1
+daily,Random Forest,12 hour day activity,1
+daily,Random Forest,12 hour night activity,1
+daily,Random Forest,mean absolute change activity,1
+daily,Random Forest,RA,1
+daily,Random Forest,inactive night,1
+daily,Random Forest,activity morning,1
+daily,Random Forest,activity evening,1
+daily,Random Forest,activity afternoon,1
+daily,Random Forest,inactive morning,1
+daily,Random Forest,inactive afternoon,1
+daily,Random Forest,inactive evening,1
+daily,Random Forest,activity night,2
+daily,Random Forest,IV,3
+daily,Random Forest,day night ratio,4
+daily,Logistic Regression,mean,1
+daily,Logistic Regression,sd,1
+daily,Logistic Regression,inactive ratio,1
+daily,Logistic Regression,longest inactivity,1
+daily,Logistic Regression,12 hour day activity,1
+daily,Logistic Regression,12 hour night activity,1
+daily,Logistic Regression,mean absolute change activity,1
+daily,Logistic Regression,RA,1
+daily,Logistic Regression,inactive night,1
+daily,Logistic Regression,activity morning,1
+daily,Logistic Regression,activity evening,1
+daily,Logistic Regression,activity afternoon,1
+daily,Logistic Regression,inactive morning,1
+daily,Logistic Regression,inactive afternoon,1
+daily,Logistic Regression,inactive evening,1
+daily,Logistic Regression,activity night,2
+daily,Logistic Regression,IV,3
+daily,Logistic Regression,day night ratio,4
+daily,Decision Tree,mean,1
+daily,Decision Tree,sd,1
+daily,Decision Tree,inactive ratio,1
+daily,Decision Tree,longest inactivity,1
+daily,Decision Tree,12 hour day activity,1
+daily,Decision Tree,12 hour night activity,1
+daily,Decision Tree,mean absolute change activity,1
+daily,Decision Tree,RA,1
+daily,Decision Tree,inactive night,1
+daily,Decision Tree,activity morning,1
+daily,Decision Tree,activity evening,1
+daily,Decision Tree,activity afternoon,1
+daily,Decision Tree,inactive morning,1
+daily,Decision Tree,inactive afternoon,1
+daily,Decision Tree,inactive evening,1
+daily,Decision Tree,activity night,2
+daily,Decision Tree,IV,3
+daily,Decision Tree,day night ratio,4

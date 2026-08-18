@@ -1,0 +1,30 @@
+sample type,classifier,0
+daily,Random Forest,mean
+daily,Random Forest,sd
+daily,Random Forest,inactive ratio
+daily,Random Forest,longest inactivity
+daily,Random Forest,12 hour day activity
+daily,Random Forest,12 hour night activity
+daily,Random Forest,day night ratio
+daily,Random Forest,mean absolute change activity
+daily,Random Forest,RA
+daily,Random Forest,activity afternoon
+daily,Random Forest,activity evening
+daily,Random Forest,inactive morning
+daily,Random Forest,inactive evening
+daily,Logistic Regression,sd
+daily,Logistic Regression,inactive ratio
+daily,Logistic Regression,longest inactivity
+daily,Logistic Regression,12 hour day activity
+daily,Logistic Regression,12 hour night activity
+daily,Logistic Regression,day night ratio
+daily,Logistic Regression,mean absolute change activity
+daily,Logistic Regression,IV
+daily,Logistic Regression,RA
+daily,Logistic Regression,activity night
+daily,Logistic Regression,activity afternoon
+daily,Logistic Regression,inactive night
+daily,Logistic Regression,inactive morning
+daily,Logistic Regression,inactive afternoon
+daily,Logistic Regression,inactive evening
+daily,Decision Tree,inactive ratio
